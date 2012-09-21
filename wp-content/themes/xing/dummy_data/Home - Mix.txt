@@ -1,0 +1,55 @@
+[slider effect="slide" timeout="5000"]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2>Choose from the <strong>unlimited</strong> collection of Women apparels</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2>Flat <strong>40%</strong> discount on all Women footwear</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Club</strong> Semi Formals &ndash; Up to 30% discount on top brands</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Exquisite</strong> Women tops - starting at just £30</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Annual Sale</strong> - Grab your products before the offer closes</h2>
+[/slide_text]
+[/slide]
+
+[/slider]
+
+[full]
+<h2>Introducing <strong>Xing</strong> theme for WordPress</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+[/full]
+
+[hr_dotted]
+
+<h3>Featured Products <small>- All time bestsellers</small></h3>
+
+[carousel easing="easeInOutExpo"]
+[featured_products per_page="20" columns="4" orderby="date" order="desc"]
+[/carousel]
+
+[hr_dotted]
+
+<h3>Latest from Portfolio <small>- Some of our works</small></h3>

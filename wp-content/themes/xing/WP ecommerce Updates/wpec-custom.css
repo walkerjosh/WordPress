@@ -1,0 +1,45 @@
+/* Some style fixes for WP e-commerce plugin. These override the default styles provided by plugin */
+
+#default_products_page_container.wrap {
+	width:inherit;
+}
+.default_product_display {
+	padding:0 0 10px;
+}
+.additional_description_container img, img#fancy_collapser {
+	display:inline
+}
+#default_products_page_container, .default_product_display .wpsc_description, #content .default_product_display .wpsc_description, .default_product_display .additional_description, #content .default_product_display .additional_description, .single_product_display .product_description, .single_product_display .single_additional_description {
+	font-size:12px;
+	line-height:1.5em;
+}
+.shoppingcart {
+	padding:0;
+}
+.shoppingcart th, .shoppingcart td {
+	padding:8px 10px;
+}
+#content #checkout_page_container table.checkout_cart tr.product_row td, #content #checkout_page_container table.checkout_cart tr.product_row {
+	padding:8px 10px;
+}
+.widgetwrap .shoppingcart th, .widgetwrap .shoppingcart td {
+	padding:2px;
+}
+.imagecol {
+	margin-right:20px
+}
+#checkout_page_container textarea, #checkout_page_container input, #content #checkout_page_container textarea, #content #checkout_page_container input, #checkout_page_container select {
+	line-height:1.5em;
+	font-size:12px;
+	margin:0 0 10px;
+	width:auto;
+	max-width:100%;
+	font-family:inherit;
+}
+.default_product_display .wpsc_product_price {
+	font-size:14px;
+	padding:0;
+}
+#checkout_page_container textarea, #checkout_page_container input, #content #checkout_page_container textarea, #content #checkout_page_container input {
+	padding:2px
+}

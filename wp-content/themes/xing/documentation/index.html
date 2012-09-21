@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width = device-width, initial-scale = 1.0, maximum-scale = 1.0, user-scalable = 0">
+<title>Xing - Theme Documentation</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="logo"><img src="images/logo.jpg" alt="Xing" width="296" height="31"></div>
+<div class="author_details">Created: Aug 25, 2012<br>
+ Last Updated: Sep 15, 2012<br>
+   Author: Saurabh Sharma<br>
+email: <a href="mailto:xconsau@gmail.com">xconsau@gmail.com</a></div>
+<br class="clearf">
+<div class="info">
+<p>Dear buyer,<br>
+First of all, let me thank you for showing your trust in my theme and purchasing it. I have handcrafted this document to lessen your efforts in configuring and using this theme seamlessly. If you find any bug or issue which is beyond the scope of this documentation file, feel free to contact me through my Themeforest profile page <a href="http://themeforest.net/user/SaurabhSharma">here</a>. Thanks so much!</p>
+</div>
+<h2 id="toc">Table of Contents</h2>
+<ol>
+<li><a href="#1">Introduction</a></li>
+<li><a href="#2">Install WordPress</a></li>
+<li><a href="#3">Install WooCommerce Plugin</a></li>
+<li><a href="#4">Install Xing Theme</a></li>
+<li><a href="#5">Activate the Theme</a></li>
+<li><a href="#6">Create Category and Posts</a></li>
+<li><a href="#7">Create a Home Page</a></li>
+<li><a href="#8">Create a Blog Page</a></li>
+<li><a href="#9">Create a Portfolio Page</a></li>
+<li><a href="#10">Create a Contact Page</a></li>
+<li><a href="#11">Create Navigation Menu</a></li>
+<li><a href="#12">Using Post Formats</a></li>
+<li><a href="#13">Using Widget Areas</a></li>
+<li><a href="#14">Custom Widgets</a></li>
+<li><a href="#15">Xing Theme Options</a></li>
+<li><a href="#16">Visual Short Codes and Style Elements</a></li>
+<li><a href="#17">Using Language options</a></li>
+<li><a href="#18">wp-pagenavi Plugin Support</a></li>
+<li><a href="#19">Basic HTML structure</a></li>
+<li><a href="#20">CSS files and structure</a></li>
+<li><a href="#21">Javascript files</a></li>
+<li><a href="#22">php files and their role</a></li>
+<li><a href="#23">Frequently Asked Questions</a></li>
+<li><a href="#24">Sources and Credits</a></li>
+</ol>
+<div class="section">
+<h3 id="1">1. Introduction - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> is a clean and modern WordPress theme designed for corporate websites and e-commerce ventures. The theme can be used for small to large business setups, online shopping stores, personal portfolio, or as an editorial blog. Supported with custom templates, widgets, short codes, and customization options; the theme can be a suitable choice for your business/ecommerce projects.</p>
+</div>
+<div class="section">
+<h3 id="2">2. Install WordPress - <a class="scroll" href="#toc">top</a></h3>
+<p>If you have not set up your WordPress installation yet, you can grab a copy of latest WordPress version <a href="http://wordpress.org">here</a>. Next, go through the installation instructions inside <code>readme.html</code> file and set up your WordPress installation.</p>
+</div>
+<div class="section">
+<h3 id="3">3. Install WooCommerce Plugin - <a class="scroll" href="#toc">top</a></h3>
+<p>The theme is designed to support WooCommerce Plugin. If you plan to use this theme as an e-commerce theme, it will be required to install WooCommerce Plugin. You can download this plugin from the following URL:</p>
+<p><a href="http://wordpress.org/extend/plugins/woocommerce/" target="_blank">http://wordpress.org/extend/plugins/woocommerce/</a><br>  
+    <br>
+  Upon activation, the plugin will prompt you to install basic shop pages. Click on &quot;<strong>Install WooCommerce Pages</strong>&quot; to create basic shop pages for WooCommerce. You can also import products data from <code>wp-content/plugins/woocommerce/dummy_data.xml</code> file, or from <code>your_download_zip/dummy_data/all.xml</code></p>
+<p>You can find detailed user guide for WooCommerce Plugin on the following URL:</p>
+<p><a href="http://wcdocs.woothemes.com/category/user-guide/" target="_blank">http://wcdocs.woothemes.com/category/user-guide/</a><br>
+</p>
+<p>The above mentioned link contains instructions on using the plugin. In rest of this documentation, we will consider theme usage without WooCommerce plugin installed. If the plugin is installed, you will see an accounts bar at the top right corner of header section, with all other features same..</p>
+<p class="tip"><strong>Note:</strong> Even if you do not install WooCommerce Plugin, the theme will work normal. WooCommerce usage is optional, and is required only if you plan to use the theme for ecommerce purpose.</p>
+</div>
+<div class="section">
+<h3 id="4">4. Install Xing Theme - <a class="scroll" href="#toc">top</a></h3>
+<h4>In order to install Xing Theme, follow these steps:</h4>
+<p>1. Extract your download package .zip file.<br>
+2. Next, look for the folder named '<strong>xing</strong>'.<br>
+3. Upload the <strong>xing</strong> folder to <code>http://yourdomain.com/your_wordpress_dir/wp-content/themes/</code> directory via any FTP program like Filezilla or CuteFTP.</p>
+<p class="tip"><strong>Important:</strong> Do NOT install your download zip directly via WordPress Theme install option.</p>
+<p><strong>Speed Install:</strong> In order to save your time, zip your "xing" folder and upload via FTP or File manager of your website Control panel. Next, you can extract the folder inside your file manager of Control panel, and delete the .zip file.</p>
+<p>If you wish to install the theme via WordPress admin, you will need to <strong>ZIP</strong> the<strong> xing</strong> folder, and install it via admin interface.</p>
+</div>
+<div class="section">
+<h3 id="5">5. Activate the Theme - <a class="scroll" href="#toc">top</a></h3>
+<p>Log into your WordPress admin using the following URL: <code>http://yourdomain.com/your_wordpress_dir/wp-admin</code></p>
+<p>Next, go to <strong>Appearance &gt; Themes</strong>. Here, you should see a thumbnail of Xing theme. Click on the ‘<strong>Activate</strong>’ link to activate the theme.</p>
+<p><img src="images/activate_theme.jpg" alt="Activate the theme" width="716" height="607"></p>
+<p>After activation, preview this theme by clicking on your blog name (<em>top left corner</em>) &gt; Visit Site. The theme will look quite similar to the image, as shown below:</p>
+<p><img src="images/first_load.jpg" alt="First view of theme" width="1054" height="475"></p>
+<p class="tip"><strong>Important:</strong> The theme may look empty at first load. This is because we have not configured any settings yet.</p>
+<p>On first load, you may see some <strong>unwanted widgets</strong> inside top-right section of header area. You can remove those widgets by navigating to WordPress <strong>Appearance &gt; Widgets &gt; Default Header Bar</strong>. Delete or pull out any unwanted widgets from this section. You can ofcourse place appropriate widgets in this section later on.</p>
+<h4>Disable the Admin Bar on top</h4>
+<p>As of WordPress version 3.1, an Admin Bar was introduced. You can disable it inside <strong>Users &gt; Your Profile</strong> section, as shown below:<br>
+  <img src="images/admin_bar.jpg" alt="Disable admin bar" width="811" height="387"></p>
+<p>Uncheck the toolbar option. Next, scroll down and click on "<strong>Update Profile</strong>" button to save the changes. The admin bar will hide now.</p>
+</div>
+<div class="section">
+<h3 id="6">6. Create Category and Posts - <a class="scroll" href="#toc">top</a></h3>
+<p>So far, we have installed the theme and activated it with some default settings. As we move further, the theme's content will depend on categories, posts, and featured images associated with them. Most of the site content will contain images. (This includes portfolio, blog and widgets). So let’s start by creating a category and publish some posts in it. But before that, a quick note about image preparation.</p>
+<h4>Image Preparation</h4>
+<p>The maximum possible width of any image we will use in this theme will be around <strong>800px</strong>. For better results, you can prepare images of around 800px width and any height. You can save these images in web optimized .jpg or .png format, and keep on your hard drive. We will upload them later. Let's now create a category and some posts.</p>
+<h4 id="create_cat">Create a Category</h4>
+<p>Go to <strong>Posts &gt; Categories</strong>. Next, create a new category (say, Portfolio) and click on "<strong>Add Category</strong>". A newly created category will appear.</p>
+<p><img src="images/create_category.jpg" alt="Create a category" width="819" height="634"></p>
+<p class="tip" id="find_cat_id"><strong>Find a Category ID:</strong> Hover your mouse pointer on the category name and watch it's link in the status bar of your browser. You will see a link as <code>taxonomy=category&amp;tag_ID=xx</code>. This <strong>xx</strong> is the category ID. Note this down as we will need the category IDs to populate the widgets, blog and portfolio pages.<br>
+</p>
+<p>You can follow same procedure tfor creating more categories; like News, Photography, Designing, Blog etc. Let's create some posts for our &quot;Portfolio&quot; category.</p>
+<h4>Create a Post with Featured Image</h4>
+<p>1. Go to <strong>Posts &gt; Add New</strong>. Next, enter a Post Title and Post Content.</p>
+<p><img src="images/add_post.jpg" alt="Add a post" width="831" height="437"></p>
+<p>2. Scroll down to the right-bottom side of your page. You will see a panel for "<strong>Featured Image</strong>". Click on the "Set featured image" link.</p>
+<p><img src="images/set_featured_image.jpg" alt="Set Featured Image" width="758" height="350"></p>
+<p>A modal box will appear, asking for the media files. Click on the "<strong>Select Files</strong>" from Computer.</p>
+<p><img src="images/select_media_files.jpg" alt="Select media files" width="672" height="400"></p>
+<p>Next, browse/upload your image file and set it as featured image by clicking on the link "<strong>Use as featured image</strong>". Make sure you choose the "<strong>Full Size</strong>" option.</p>
+<p><img src="images/set_featured_image_2.jpg" alt="Set featured image" width="672" height="603"></p>
+<p>After you are done, <strong>close</strong> the modal box. The newly set featured image will appear inside the "Featured Image" panel.</p>
+<p>3. Finally, assign the post to an appropriate category (in our case, Portfolio) and click on "<strong>Publish</strong>" button.</p>
+<p><img src="images/publish_post.jpg" alt="Publish the post" width="974" height="590"></p>
+<p>That is all required to create a post.. You will need to repeat the same procedure for creating more posts in various categories. i.e. Create a post, <strong>set featured image</strong>, and publish it in appropriate category. Once you are done with handful of posts and categories, we can use them on templates like Blog and Portfolio.</p>
+<p class="tip"><strong>Important:</strong> We have used a standard post format here. We will cover the post formats later in this documentation. Post formats can be changed any time as you desire.</p>
+</div>
+<div class="section">
+<h3 id="7">7. Create a Home Page- <a class="scroll" href="#toc">top</a></h3>
+<p>By default, WordPress shows blog posts on front page until the front page is set as some static page. In our case, we will create a Home page and set it as static front page. You can follow these steps for creating a Home page:</p>
+<p>1. Go to <strong>Pages &gt; Add New</strong>. Next, enter a title for your home page. Say – "Home".<br>
+2. Leave the content area empty.<br>
+</p>
+<p><img src="images/create_home_page.jpg" alt="Create Home Page" width="831" height="403"></p>
+<p>3. Publish the page.</p>
+<p>This will create an empty Home Page. But this page will still not appear on front page. For that, it will be required to set Front page Displays.</p>
+<p class="tip"><strong>Important:</strong> We have just created the Home page. But this will not appear as front page yet. For that, we will need to adjust some Front Page Display Settings.<br>
+</p>
+<p>Go to <strong>Settings &gt; Reading &gt; Front page displays &gt; A static page</strong>. Next, set Front page as &quot;Home&quot;, and leave Posts page to NONE. Finally, <strong>Save</strong> the changes.</p>
+<img src="images/set_front_page.jpg" alt="Set front page" width="701" height="550">
+<p>Once you are done, check the site. It should show your newly created Home page with empty content.</p>
+<p><img src="images/home_page.jpg" alt="Full width home page with no posts" width="1026" height="460"></p>
+<h4>Adding content to the Home Page</h4>
+<p>The Home page uses custom short codes and markup. You can find this sample markup inside <code>xing/dummy_data/home.txt</code> file. Open this file and copy all the contents. Next, edit your home page in HTML mode and paste this markup. Finally, update the page. You can modify the content and short codes as per your requirements. There are some variations for Home page markup which you can find inside <code>xing/dummy_data/</code> folder's text files.</p>
+</div>
+<div class="section">
+<h3 id="8">8. Create a Blog page - <a class="scroll" href="#toc">top</a></h3>
+<p>A blog page can be created by using a 'Blog' template and providing category IDs inside page options. Below are the steps for creating a blog page:</p>
+<p>1. Go to <strong>Pages &gt; Add New</strong>. Next, enter a title for blog page. Say - “<em>Blog</em>”.<br>
+2. Leave the content section empty, and scroll down to <strong>Page Options &gt; Portfolio and Blog Options</strong> panel.</p>
+<p><img src="images/template_options.jpg" alt="Portfolio and Blog Options" width="686" height="224"><br>
+  3. Inside &quot;Category IDs to fetch Portfolio or Blog Posts&quot;, enter the category ID of your Blog posts. (For example: 3,5,7).<br>
+  4. Inside "Posts per page", enter a number of posts to show.<br>
+  5. Next, inside "<strong>Template</strong>" menu on the right side, select a <strong>Blog</strong> template and publish the page. (The theme comes with three blog templates. You can choose any template from the available ones. In this example, we will choose the 'Blog - Masonry Grid Style' template).</p>
+<p><img src="images/create_blog_page.jpg" alt="Create a Blog Page" width="972" height="500"></p>
+<p>6. After publishing the page, view it in browser. It will show posts from the Categories as provided inside the Page Options Panel. In our example, I have used the  &quot;Portfolio&quot; category to show on Blog Page.</p>
+<p><img src="images/blog_page.jpg" alt="Blog Page" width="1010" height="656"></p>
+<p>Up to here, we have seen how to create a Home Page and a Blog Page. Let's now see how to create a Portfolio Page.</p>
+</div>
+<div class="section">
+<h3 id="9">9. Create a Portfolio page - <a class="scroll" href="#toc">top</a></h3>
+<p>A portfolio page can be created in exactly the same way as we did for Blog Page. The only difference is the template being assigned. i.e. instead of 'Blog' template, we will assign the 'Portfolio' template to the page. Below is a quick summary of steps involved in creating a portfolio page.</p>
+<p>1. Go to <strong>Pages &gt; Add New</strong>. Next, enter a title for portfolio page. Say - “<em>My Portfolio</em>”.<br>
+2. Inside content editor, you can place any custom markup. This will appear just above the portfolio gallery.<br>
+3. 
+Scroll down to <strong>Page Options &gt; Portfolio and Blog Options</strong> panel.<br>
+4. Inside &quot;Category IDs to fetch Portfolio or Blog Posts&quot;, enter the category ID of your Portfolio posts. (For example: 3,7,10).<br>
+5. Inside "Posts per page", enter a number of posts to show.<br>
+6. Next, inside "<strong>Template</strong>" menu on the right side, select a <strong>Portfolio</strong> template and publish the page. (The theme comes with 8 templates for portfolio. You can assign any template to the portfolio page. In this example, we are using the 'Portfolio Filterable - 3 Col with SB' template).</p>
+<p><img src="images/create_portfolio_page.jpg" alt="Create a Portfolio page" width="962" height="637"></p>
+<p>6. After publishing the page, view it in browser. It will show posts from the Categories as provided inside the Page Options Panel. In our example, I have used the 'Portfolio' category to show on Portfolio Page.</p>
+<p><img src="images/portfolio_page.jpg" alt="Portfolio Page" width="1014" height="625"></p>
+<p>Up to here, we have seen how to create Home, Blog and Portfolio pages. Let's now see how to create a Contact Page.</p>
+</div>
+<div class="section">
+<h3 id="10">10. Create a Contact page - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> comes with a built-in ajax/php contact page template. In order to use this template, follow these steps:</p>
+<p>1. Go to <strong>Pages &gt; Add New</strong>. Next, enter a title for contact page. Say - "Contact us".<br>
+2. Inside content editor, write some content that should appear just above the contact form.<br>
+3. Next, from the “<strong>Template</strong>” menu on right side, select a template called “<strong>Contact Page</strong>” and click on “<strong>Publish</strong>” to save the changes.</p>
+<p>This will create a contact form with ajax/php form validation.</p>
+<h4>How to set your email address and custom mail sent message?</h4>
+<p>In order to configure your email address, go to <strong>Appearance &gt; Xing Options &gt; General</strong>. Next, scroll down and configure your email address and mail sent message, as shown below:</p>
+<p><img src="images/contact_details.jpg" alt="Configure contact email address" width="819" height="244"></p>
+<p>Finally, scroll down and click on "<strong>Save Changes</strong>" to save these settings.</p>
+</div>
+<div class="section">
+<h3 id="11">11. Create Navigation Menu - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> supports two WordPress menus (Primary menu in header section, and secondary menu at the top). Let's see how to create and use them:</p>
+<p>1. Go to <strong>Appearance &gt; Menus</strong>.<br>
+2. On the right side, you will see a form for adding new menu. Enter a menu name; say "menu-1" and click on "<strong>Create Menu</strong>" button.</p>
+<p><img src="images/menus.jpg" alt="Create a Menu" width="969" height="305"></p>
+<p>Inside "<strong>Theme Locations</strong>" section, choose your menu from "<strong>Primary Menu</strong>" dropdown list and click on "<strong>Save</strong>".</p>
+<p><img src="images/select_menu.jpg" alt="Select your menu" width="974" height="391"></p>
+<p>Next, scroll down to "<strong>Pages</strong>" section and select the pages you wish to show on menu. Click on "<strong>Add to Menu</strong>" button.</p>
+<p><img src="images/select_menu_items.jpg" alt="Select Pages for Menu" width="300" height="235"><br>
+These pages will now appear on the right side.</p>
+<p class="tip"><strong>Tip:</strong> You can drag menu items up-down to manage the order of appearance. You can drag them left-right to set as sub-page. You can also edit "Navigation Label" and "Title Attribute" if you wish to do so.</p>
+<p>Finally, click on "<strong>Save Menu</strong>" button. Your primary menu will be created. You can add more menu <strong>items</strong> in future as you create more pages.</p>
+<p>Following similar procedure, you can create one more menu and use it for the &quot;Secondary Top Menu&quot; location. You can <strong>hide</strong> Secondary Menu Navigation bar inside Appearance &gt; Xing Options &gt; Header &gt; Disable Top Navigation Bar.</p>
+</div>
+<div class="section">
+<h3 id="12">12. Using Post Formats - <a class="scroll" href="#toc">top</a></h3>
+<p>Post formats are used to style and display a post according to a specific content. <strong>Xing</strong> supports 3 Custom Post Formats other than the &quot;Standard&quot; post format. These post formats can be set from the &quot;<strong>Fromat</strong>&quot; panel of your post editor. Let's see how to use these post formats.</p>
+<h4>1. Audio</h4>
+<p>An audio post format can be used to display a self hosted audio using jPlayer. In order to create an Audio post, follow these steps:</p>
+<p>a. Create a new post, and assign a title. Say, &quot;My  Audio Post&quot;.<br>
+b. Next, scroll down to the <strong>Post Options &gt; Post Format Options</strong> panel.<br>
+c. Inside &quot;Audio URL&quot;, provide a full URL to the hosted Audio. For example, http://mysite.com/resources/audio_file.mp3<br>
+d. From the &quot;Select an audio type&quot; menu, choose the type of audio provided. In this case, we have provided an mp3 file, so the audio type will be mp3. Use oga for .ogg file, and m4a for .mp4 files.</p>
+<p><img src="images/audio_pf.jpg" alt="Audio Options" width="670" height="302"><br>
+  e. Next, choose the &quot;Audio&quot; post format from the &quot;<strong>Format</strong>&quot; panel, and publish the post.</p>
+<p><img src="images/publish_audio_post.jpg" alt="Publish Audio Post" width="970" height="381"></p>
+<p>Your audio post is ready to play the song. You can also set a featured image for audio post. If the image is set, it will show just above the audio player.</p>
+<h4>2. Gallery</h4>
+<p>A gallery post can be used to show the post <strong>image attachments </strong>in form of a Slider. Before creating a gallery post, make sure you prepare some images that are of <strong>same height</strong>. These images will be attached to the post and used inside a Slider. In order to create a Gallery post, follow these steps:</p>
+<p>a. Create a new post, and give a title. Say, &quot;My gallery Post&quot;.<br>
+  b. Next, click on the &quot;Upload/Insert&quot; media button for attaching images.</p>
+<p><img src="images/add_media.jpg" alt="Add media for the gallery" width="675" height="401"></p>
+<p>A modal box will appear. Click on the &quot;Select Files&quot; from computer and upload the gallery image. After the image is uploaded, scroll down and click on &quot;<strong>Save all changes</strong>&quot;.</p>
+<p><img src="images/save_media.jpg" alt="Save media" width="672" height="603"></p>
+<p>After you have saved the changes, a new gallery will be created, as shown below:</p>
+<p><img src="images/gallery.jpg" alt="Gallery created" width="672" height="603"></p>
+<p>c. Once again, click on save all changes, and close the modal box.<br>
+  d. Repeat <strong>step b</strong> and upload more images. i.e. click on the &quot;Upload/Insert&quot; media icon, and add more images. These will be automatically added to the Gallery. (You can also drag and drop multiple images at once inside the media uploader).<br>
+    e. After adding  images, choose &quot;<strong>Gallery</strong>&quot; from the &quot;<strong>Format</strong>&quot; panel on right side, and Publish the post.</p>
+<p><img src="images/publish_gallery.jpg" alt="Publish gallery post" width="970" height="381"></p>
+<p>The post will now show a slider of all attached images.</p>
+<h4>3. Video</h4>
+<p>An Video post format can be used to display a self hosted Video using the oEmbed feature. WordPress supports video embedding using the oEmbed. In order to create a Video post, follow these steps:</p>
+<p>a. Create a new post, and assign a title. Say, &quot;My Video Post&quot;.<br>
+  b. Next, scroll down to the <strong>Post Options &gt; Post Format Options</strong> panel.<br>
+  c. Inside &quot;Video URL&quot;, provide a full URL to the hosted Video. For example, http://vimeo.com/41369274</p>
+<p><img src="images/video_option.jpg" alt="Video URL" width="672" height="120"></p>
+<p>  d. From the &quot;Format&quot; panel on right side, choose &quot;<strong>Video</strong>&quot;, and Publish the post.</p>
+<p><img src="images/publish_video_post.jpg" alt="Publish video post" width="971" height="421"></p>
+<p>Your post will show a standalone video player as provided by the respective video sites. The theme supports all major video formats that are supported by oEmbed.</p>
+</div>
+<div class="section">
+<h3 id="13">13. Using Widget Areas - <a class="scroll" href="#toc">top</a></h3>
+<p>Widget area is a place where you can drag and drop widgets for the theme. <strong>Xing</strong> supports 7 widget areas (1 in header, 1 in sidebar, and 5 in the footer). Additionally, we have an option for creating Exclusive Widget Areas for sidebar and header section that can be used on different pages and posts.</p>
+<p>In order to access your widget areas, go to <strong>Appearance &gt; Widgets</strong>. You will see 7 widget areas, as shown below:</p>
+<p><img src="images/default_widget_area.jpg" alt="Default Widget Areas" width="956" height="502"></p>
+<p>These are the default widget areas. The theme will use these default widget areas when no exclusive widget area is defined for a page or post.</p>
+<p class="tip"><strong>Important:</strong> Please note that Blog related pages like author, archives, date, category etc will use these default widget areas. Exclusive widget areas are ONLY FOR PAGES and SINGLE POSTS.</p>
+<p>Let’s have a quick look on each widget area:</p>
+<table width="920" border="0" cellspacing="1" bgcolor="#E6E6E6">
+<tr>
+<td width="175" bgcolor="white"><strong>Widget Area</strong></td>
+<td width="738" bgcolor="white"><strong>Description</strong></td>
+</tr>
+<tr>
+  <td bgcolor="white">Default Header Bar</td>
+  <td bgcolor="white">The default header widget area.</td>
+</tr>
+<tr>
+<td bgcolor="white">Default Sidebar</td>
+<td bgcolor="white">The default widget area for Sidebar.</td>
+</tr>
+<tr>
+<td bgcolor="white">Default Secondary Column 1</td>
+<td bgcolor="white">First widget area of the footer section.</td>
+</tr>
+<tr>
+<td bgcolor="white">Default Secondary Column 2</td>
+<td bgcolor="white">Second widget area of the footer section.</td>
+</tr>
+<tr>
+<td bgcolor="white">Default Secondary Column 3</td>
+<td bgcolor="white">Third widget area of the footer section.</td>
+</tr>
+<tr>
+<td bgcolor="white">Default Secondary Column 4</td>
+<td bgcolor="white">Fourth widget area of the footer section.</td>
+</tr>
+<tr>
+  <td bgcolor="white">Default Secondary Column 5</td>
+  <td bgcolor="white">Fifth widget area of the footer section.</td>
+</tr>
+</table>
+<h4>Exclusive Widget Areas</h4>
+<p>As mentioned earlier, <strong>Xing</strong> supports Exclusive Widget Areas for sidebar and header section. As an example, let’s create an exclusive widget area for "<strong>About Us</strong>" page.</p>
+<p>1. Go to <strong>Pages &gt; Add New,</strong> and create a new page called "About Us".<br>
+2. Scroll down to the <strong>Page Options &gt; Sidebar Options</strong> panel, and enable the &quot;Create an exclusive sidebar for this page&quot; option, as shown below:<br>
+</p>
+<p><img src="images/create_exclusive_sidebar.jpg" alt="Create an exclusive sidebar" width="673" height="318"></p>
+<p>Finally, click on "<strong>Publish</strong>" to save the changes on this page. This will register one exclusive widget area with the name "About Us".</p>
+<p><strong>BUT WAIT</strong>, there is one more step before you leave this page. The newly registered sidebar will now appear inside the dropdown menu for "Available widget areas for Sidebar". You will need to select these new sidebar and <strong>Update</strong> the page one more time.</p>
+<p><img src="images/select_sidebar.jpg" alt="Select the new sidebar" width="673" height="318"></p>
+<p>In order to use widgets on these sidebars, go to <strong>Appearance &gt; Widgets</strong>. You should now see one more sidebar widget area added to your theme.</p>
+<p><img src="images/new_sidebar.jpg" alt="Newly created widget areas" width="968" height="496"></p>
+<p>Now you can drag and use appropriate widgets into this sidebar. Following the same procedure, you can register more sidebars from different pages. All these sidebars will get added to the dropdown menu for Page and Post options.</p>
+<h4>How to use an exclusive sidebar on a Post?</h4>
+<p>Whenever you will register an exclusive sidebar for a PAGE, it will get added to the "<em>Available widget areas for Sidebar</em>" dropdown list inside Page Options and Post options. Creation of new sidebars is only done through Pages. Whereas their usage can be done on both pages and posts.</p>
+<p>For example, edit any of the available posts and scroll down to the Post Options panel. Inside "<em>Available widget areas for Sidebar</em>" section, you will see the available sidebars:</p>
+<p><img src="images/custom_sidebar_on_posts.jpg" alt="Custom sidebar on posts" width="672" height="240"></p>
+<p>You can select the available sidebars and update the post. Same procedure can be followed for header widget area as well. The secondary widget areas are NOT exclusive. They will be used globally throughout the site.</p>
+<p>At this stage, we have seen widget areas and their usage. You can start adding widgets to your site. For that, drag  widgets into appropriate widget areas, follow the options and save them. There is no particular format for adding widgets. You can add them according to the content and requirement.</p>
+</div>
+<div class="section">
+<h3 id="14">14. Custom Widgets - <a class="scroll" href="#toc">top</a></h3>
+<p>WordPress comes with built-in default widgets for your themes. Apart from these default widgets, <strong>Xing</strong> comes with <strong>7</strong> custom widgets crafted for your needs. In order to use these widgets, go to <strong>Appearance &gt; Widgets</strong>. You will see custom widgets with the name "<strong>Xing</strong>". Let’s have a quick look on each widget.</p>
+<p><strong>Xing Categories:</strong> Use this widget if you wish to show a list of particular categories. For example, on home page, you may only wish to show categories such as "products", "news", "awards" etc. In such case, you can use this widget. Drag the widget into appropriate widget area and enter the category IDs separated by commas. These cat IDs will be excluded from the list, and rest of the available categories will be shown.</p>
+<p><strong>Xing Flickr Widget:</strong> This widget can be used to show a Flickr photo-stream on your website. You can display Flickr photos via a user, userTag, userSet, all or allTag. Drag this widget into your widget area and play with the available options.</p>
+<p><strong>Xing Popular Posts:</strong> Use this widget to display popular posts with thumbnails. The popular posts are chosen from <strong>most commented</strong> posts. You can also opt to hide thumbnails for popular posts.</p>
+<p><strong>Xing Recent Posts:</strong> Use this widget if you wish to show your latest posts from a particular list of categories. For example, on a "News" page you may wish to show latest posts only from "News" category. Similarly, you may wish to show "Latest works" only from "Portfolio" category. At such stage, this widget comes in use. You can either include or exclude category IDs. Both options are available. For example, category IDs to include will be 3,4,6,8. And category IDs to exclude will be -3.-4,-6,-8.</p>
+<p><strong>Xing Twitter Widget:</strong> Use this widget to display recent tweets from a particular twitter username.</p>
+<p><strong>Xing Mini Folio:</strong> Use this widget to display a mini portfolio gallery on sidebar. This widget generates a grid of thumbnails from posts of particular category.</p>
+<p><strong>Xing Social Icons:</strong> A social networking icons widget. You can configure your social networking links, RSS etc from this widget.</p>
+</div>
+<div class="section">
+<h3 id="15">15. Xing Theme Options - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> comes with a theme options panel for basic settings and configuration of your theme.</p>
+In order to configure theme options, go to Appearance &gt; <strong>Xing Options</strong>. You will see three different sections (in form of tabs). Let’s cover a brief introduction about each of these sections:
+<p><strong>1. General</strong><br>
+This section contains general settings for your theme. For example: Layout style, color scheme, footer notes, etc.</p>
+<p><strong>2. Header</strong><br>
+This section contains settings for header section. Like callout bar, logo URL, breadcrumbs show/hide, etc.</p>
+<p><strong>3. Blog</strong><br>
+This section covers settings for blog related pages like archives, single post settings, related posts, author bio, social sharing buttons, etc.</p>
+<p>Once you are done with settings, click on "<strong>Save Changes</strong>" button at the bottom of page. You can also reset all settings to default by clicking on "<strong>Reset all settings</strong>" button.</p>
+</div>
+<div class="section">
+<h3 id="16">16. Visual Short Codes and Style Elements- <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> comes with useful short-codes for layout and content display. These short codes are placed in form of buttons inside the "<strong>Visual Mode</strong>" of content editor. These short-codes include basic layout columns, slider, carousel, posts insertion, tabs, accordions, toggles, lists, information boxes, line separators, level indicators, and buttons. In order to use these short-codes, you will need to insert them inside the content editor of a post or page. Let's see how to do that:</p>
+<h4><strong>Visual Short codes</strong> - An overview</h4>
+<p>Short codes can be inserted inside a post or page using the Visual Mode of content editor. When you will add a new post or page, you will see a row of short code buttons inside the "Visual Mode" of content editor, as shown below:</p>
+<p><img src="images/shortcode_buttons.jpg" alt="Short code buttons" width="668" height="295"></p>
+<p>In order to use a short code, place the cursor inside the content editing area (at the point of insertion) and click on the short code button. Next, you can control parameters as directed by the short code. Although each short code button is self-explanatory, let's take one example so that you get familiar with their working.</p>
+<p><strong>1. Insert Layout Columns</strong></p>
+<p><img src="images/sc_layout.jpg" alt="Insert layout columns" width="668" height="295"></p>
+<p>You can insert a set of layout columns using this short code. For insertion, place your cursor inside the content editing area and click on the button as shown above. A modal window will open which will guide you for various parameters. After choosing appropriate column set, click on "Insert Columns" button. For example, let's insert a 1/2 : 1/2 column set.</p>
+<p><img src="images/sc_layout_output.jpg" alt="Result" width="669" height="437"></p>
+<p>As you can see in the image above, a set of two half columns with appropriate short code is inserted. You can edit the content as shown within yellow circles.</p>
+<p class="tip"><strong>Important:</strong> If you wish to add more columns, you will need to place the cursor at one complete <strong>carriage return</strong> (enter key), as shown below:</p>
+<p><img src="images/sc_right_way.jpg" alt="Right way of adding short code" width="669" height="437"></p>
+<p>This method will apply to all short codes. <strong>i.e. each short code should be inserted at  next line (NOT on the same line)</strong>. Adding a short code on same line may prevent them from working, or may result in unwanted line breaks.</p>
+<p>Just as we saw in the above example, you can insert</p>
+<ul>
+<li>Slider</li>
+<li>Carousel (Only for WooCommerce Product list)</li>
+<li>Posts</li>
+<li>Tabs</li>
+<li>Accordion</li>
+<li>Toggle</li>
+<li>Content box</li>
+<li>Lists</li>
+<li>Line separators</li>
+<li>Buttons</li>
+<li>Level Indicators</li>
+<li>Logo Grids</li>
+</ul>
+<p>Each of these short codes have their own options panel that will take different parameters from you.</p>
+<p>The implementation method for some short codes is slightly different than the one we just covered. They are:</p>
+<ul>
+<li>Quote</li>
+<li>Pullquote left</li>
+<li>Pullquote right</li>
+<li>Dropcap and</li>
+<li>Inverted Dropcap</li>
+</ul>
+<p>To use  these shortcodes, you will need to select a bunch of text first and then click on the short code button. The selected text will be wrapped with appropriate short code.</p>
+<p class="tip"><strong>Important:</strong> After inserting a short code, always switch to the HTML mode of  editor. By doing so, you can fix unwanted line break or paragraph tags.</p>
+</div>
+<div class="section">
+<h3 id="17">17. Using Language options - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> comes with language localization support. If you are using WordPress in your own language, you can use .po file to translate the messages into your own language. The .po file is located inside <code>xing/languages/</code> folder.</p>
+<p> First of all, it will be required to define the language inside <code>wordpress/wp-config.php</code> file. Open <code>wp-config.php</code> file in any text editor and look for the following code at around line no. 72:</p>
+<p><code>define ('WPLANG', '');</code></p>
+<p>Enter a parameter for <code>WPLANG</code>. This is generally in a format as <code>language_country</code>. For example, <code>en_US</code>, or <code>de_DE</code>. So, this line will change to:</p>
+<p><code>define ('WPLANG', 'de_DE');</code></p>
+<p><strong>Save this file</strong>.</p>
+<p>Next, go to <code>themes/xing/languages</code> folder. Duplicate a copy of <code>languages_country.po</code> file and rename it as <code>de_DE.po</code> file. (Make sure this name is same as what you've defined in <code>wp-config.php</code> file).</p>
+<p>Now you have <code>de_DE.po</code> file. You will need <strong>poEdit</strong> software to edit and translate this .po file. You can download the software from this site:<br>
+<a href="http://www.poedit.net/">http://www.poedit.net</a></p>
+<p>After downloading the software, install it with default settings. Next, open <code>de_DE.po</code> file in poEdit. It will show all available messages for translation:</p>
+<p><img src="images/poedit.jpg" alt="Use poEdit to translate messages" width="733" height="666"></p>
+<p>Click on any message and type its translation in your own language.</p>
+<p>Finally, <strong>save</strong> the file. Once you save the file, poEdit will automatically compile and generate a <strong>.mo</strong> file as <strong>de_DE.mo</strong>. This .mo file is used by WordPress for translating your messages.</p>
+</div>
+<div class="section">
+<h3 id="18">18. wp-pagenavi Plugin Support - <a class="scroll" href="#toc">top</a></h3>
+<p>WP-Pagenavi is a pagination plugin for WordPress. It displays a series of paginated links for multiple posts. If you install this plugin, <strong>Xing</strong> theme will automatically support its usage. The CSS styles for this plugin are included inside style.css file of the theme.</p>
+<p>You can download the plugin from <a href="http://wordpress.org/extend/plugins/wp-pagenavi/">http://wordpress.org/extend/plugins/wp-pagenavi/</a></p>
+<p>Install and activate the plugin. Next, go to <strong>Settings &gt; PageNavi</strong> and make the changes as shown below:</p>
+<p><img src="images/pagenavi_settings.jpg" alt="Settings for wp-pagenavi plugin" width="680" height="1038"></p>
+<p class="tip"><strong>Important:</strong> Make sure you disable pagenavi-css.css usage. i.e. we do not want to use the css that comes with this plugin. We have already defined style rules in our own CSS files.</p>
+</div>
+<div class="section">
+<h3 id="19">19. Basic HTML structure - <a class="scroll" href="#toc">top</a></h3>
+<p>The output of any WordPress theme is pure HTML in browser. The HTML output of <strong>Xing</strong> theme, in most general case, can be divided into the following sections:</p>
+<ul>
+  <li>Container (For boxed layout)
+    <ul>
+      <li>Utility</li>
+      <li>Header</li>
+      <li>Access</li>
+      <li>Primary
+        <ul>
+          <li>Content</li>
+          <li>Sidebar</li>
+          </ul>
+      </li>
+      <li>Secondary</li>
+      <li>Footer</li>
+    </ul>
+</li>
+  </ul>
+<p>These sections can be seen in HTML markup as:</p>
+<p><img src="images/html_markup.jpg" alt="Basic HTML structure" width="394" height="583"></p>
+<p>For quick reference, you can see this diagram and switch to appropriate class for modifying the appearance or content.</p>
+</div>
+<div class="section">
+<h3 id="20">20. CSS files and structure - <a class="scroll" href="#toc">top</a></h3>
+<p>The CSS files used by <strong>Xing</strong> theme are as follows:</p>
+<ul>
+<li>style.css</li>
+<li>editor-style.css</li>
+<li>responsive.css</li>
+<li>user.css</li>
+<li>woocommerce/woocommerce-custom.css</li>
+<li>css/prettyPhoto.css</li>
+<li>css/jplayer_skin/jp_skin.css</li>
+</ul>
+<h4>1. style.css</h4>
+<p>This is the main CSS file for <strong>Xing</strong> theme. The general structure is divided into 12 different sections, each with a label, as shown below:</p>
+<img src="images/css_structure.jpg" alt="CSS structure" width="759" height="528">
+<p>In order to change a particular style rule, you can quickly refer to the <strong>TABLE OF CONTENTS</strong> and then switch on to appropriate section.</p>
+<p>For example, if you wish to change the style rules for primary navigation, you would first look into the <strong>TABLE OF CONTENTS</strong>. Since, primary navigation falls under section <strong>4. HEADER</strong>, you would straightaway scroll down to <strong>4. HEADER</strong> section. Here, you can modify/append your styles and save the file.</p>
+<p>Similarly, if you wish to change the appearance of form elements, you would directly switch on to section <strong>10. FORMS</strong> after referring <strong>TABLE OF CONTENTS</strong>. Next, make necessary changes and save the file.</p>
+<p class="tip"><strong>Tip:</strong> If incase, you find it difficult to locate a particular class, the best approach is to use the search option of text editor. For example, in Dreamweaver, you can use <strong>Find and Replace</strong> option to find a particular class. Once you find that class, you can easily modify its rules.</p>
+<h4>2. editor-style.css</h4>
+<p>This file is used to style the content display inside WordPress editor. These styles will not have any effect on the actual theme, and are only used to format the Visual editor content.</p>
+<h4>3. responsive.css</h4>
+<p>This file is used to re-size theme layout for different mobile devices. The styles for various devices are categorized using media queries. This file can be disabled inside Appearance &gt; Xing Options &gt; General &gt; Disable responsive.css file.</p>
+<h4>4. user.css</h4>
+<p>Use this file for adding custom CSS styles to the theme. This is useful when updating the theme. You can keep a backup of user.css file and update theme files easily. By doing this, your customizations will remain safe.</p>
+<h4>5. woocommerce/woocommerce-custom.css</h4>
+<p>This file is used to override default front end styles of WooCommerce pages. The original plugin file is located as <code>wp-content/plugins/woocommerce/assets/css/woocommerce.css</code> This CSS file is inherited and modified from the original source. The plugin CSS is disabled by default.</p>
+<h4>6. prettyPhoto.css</h4>
+<p>This file is created by the author(s) of jquery PrettyPhoto Plugin. All the style rules for prettyPhoto modal box are controlled via this CSS file. You need not modify or change the contents of this file.</p>
+<h4 id="pp2">7. jp_skin.css</h4>
+<p>This CSS file is used to style the jPlayer skin. You need not modify the contents of this file.</p>
+<h4 id="pp3">Admin CSS File</h4>
+<p>Apart from the above mentioned global CSS files, this theme uses 1 CSS file for Theme Options Panel, located as <code>admin/admin.css</code>. This file is used to style the the admin interface of Theme Options panel.</p>
+<h4>Color Scheme CSS files</h4>
+<p>The theme also uses 4 different color scheme files located inside <code>xing/css/schemes/</code> folder. These are used for different color schemes on the theme,</p>
+</div>
+<div class="section">
+<h3 id="21">21. Javascript files - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> uses different javascript files for content enhancement and theme features. These files are:</p>
+<ol id="js_list">
+<li>Jquery Library for entire site (jquery.js ver 1.7+)</li>
+<li>Jquery Plugins
+<ol>
+<li>jquery.ui.core.min.js</li>
+<li>jquery.ui.widget.min.js</li>
+<li>jquery.ui.tabs.min.js</li>
+<li>jquery.ui.accordion.min.js</li>
+<li>jquery.flexslider-min.js</li>
+<li>jquery.masonry.min.js</li>
+<li>jquery.jplayer.min.js</li>
+<li>jquery.quicksand.js</li>
+<li>jquery.jcarousel.min.js</li>
+<li>jquery.hoverIntent.minified.js</li>
+<li>jquery.prettyPhoto.js</li>
+<li>jquery.validate.pack.js</li>
+<li>jquery.easing.min.js</li>
+</ol>
+</li>
+<li>Miscellaneous
+<ol>
+<li>custom.js</li>
+<li>form_.js</li>
+<li>tabs.js</li>
+<li>admin.js</li>
+<li>filterable.js</li>
+<li>mason_init.js</li>
+</ol>
+</li>
+</ol>
+<p>Let’s have a quick look on these files one by one:</p>
+<p><strong>1. Jquery library for entire site</strong><br>
+jQuery is a javascript library that reduces the amount of code we must write. The file jquery.js ver 1.7+ is included with WordPress 3.3.1. This library is loaded in no-conflict mode, so that your custom plugins and JS code works seamlessly.</p>
+<p><strong>2. Jquery Plugins</strong><br>
+These are open source Jquery plugin files created by various developers worldwide. Although, you need not modify or edit these files, I shall mention the role of these files one by one:</p>
+<ul>
+<li><em>ui.core.js, ui.widget.js, ui.tabs.js and ui.accordion.js</em>: These files comes with WordPress installation, and are used for tabs and acordion on this theme.</li>
+<li><em>jquery.flexslider-min.js:</em> This file is used for the Slider.</li>
+<li><em>jquery.masonry.min.js:</em> This file is used for the masonry layout on portfolio and blog template.</li>
+<li><em>jquery.jplayer.min.js:</em> This file is used for the audio player on posts.</li>
+<li><em>jquery.quicksand.js:</em> This file is used for animations on filterable portfolio.</li>
+<li><em>jquery.jcarousel.min.js:</em> This file is used for product carousel.</li>
+<li><em>jquery.hoverIntent.minified.js</em>: This file is used for delay hover intent on navigation menu.</li>
+<li><em>jquery.prettyPhoto.js:</em> This file is required for portfolio full screen display inside a modal box.</li>
+<li><em>jquery.validate.pack.js:</em> This file is used for client side form validation on contact page.</li>
+<li><em>jquery.easing.min.js:</em> This file is used for easing enhancements on various jQuery animations.</li>
+</ul>
+<p><strong>3. Miscellaneous</strong><br>
+These are custom JS files used for initializing plugins.</p>
+<ul>
+<li><strong>custom.js:</strong> This file contains all the custom functions and JS effects for the theme..</li>
+<li><strong>form_.js:</strong> This file is used to initialize form validation plugin on contact page.</li>
+<li><strong>tabs.js:</strong> This file is used to initialize tabs and accordions.</li>
+<li><strong>admin.js:</strong> This file is used for custom effects inside Theme Options panel.</li>
+<li><strong>filterable.js:</strong> This file is used for initializing filterable portfolio animation.</li>
+<li><strong>mason_init.js:</strong> This file is used for initializing masonry grid layout.</li>
+</ul>
+<p>Apart from these files, the theme uses different JavaScript files for visual short codes. These files are located inside <code>/includes/shortcodes/js/</code> folder. You need not modify the contents of these files.</p>
+</div>
+<div class="section">
+<h3 id="22">22. php files and their role - <a class="scroll" href="#toc">top</a></h3>
+<p><strong>Xing</strong> uses various  php files for entire functioning of the site. Let’s have a quick look on the role of these files:</p>
+<table width="920" border="0" cellspacing="1" bgcolor="#E6E6E6">
+<tr>
+<td bgcolor="#fff"><strong>php File</strong></td>
+<td bgcolor="#fff"><strong>Role</strong></td>
+</tr>
+<tr>
+<td bgcolor="#fff">404.php</td>
+<td bgcolor="#fff">Default 404 Error Template.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">archive.php</td>
+<td bgcolor="#fff">Default Archive template for posts.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">attachment.php</td>
+<td bgcolor="#fff">Default Attachment Template</td>
+</tr>
+<tr>
+<td bgcolor="#fff">comments.php</td>
+<td bgcolor="#fff">A template to display comments on single posts.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">content *.php</td>
+<td bgcolor="#fff">All the php files starting with &quot;content-&quot; name are used as different style WordPress loop. (Grid, list, classic).</td>
+</tr>
+<tr>
+<td bgcolor="#fff">footer.php</td>
+<td bgcolor="#fff">Default footer template.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">functions.php</td>
+<td bgcolor="#fff">Theme's functions and definitions.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">header.php</td>
+<td bgcolor="#fff">Default header template.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">index.php</td>
+<td bgcolor="#fff">Default template for showing posts and pages.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">page.php</td>
+<td bgcolor="#fff">Default page template.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">search.php</td>
+<td bgcolor="#fff">Default search template.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">searchform.php</td>
+<td bgcolor="#fff">Custom search form.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">sidebar.php</td>
+<td bgcolor="#fff">Default sidebar template.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">single.php</td>
+<td bgcolor="#fff">Default single posts template.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">includes/breadcrumbs.php</td>
+  <td bgcolor="#fff">Template part for breadcrumbs.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/cats-widget.php</td>
+<td bgcolor="#fff">Custom categories widget.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">includes/content-slider-widget.php</td>
+  <td bgcolor="#fff">Custom widget for content slide show.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/flickr-widget.php</td>
+<td bgcolor="#fff">Custom widget to showcase your flickr photostream.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/minifolio-widget.php</td>
+<td bgcolor="#fff">Custom widget to display a mini portfolio of post images.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/recent-posts-widget.php</td>
+<td bgcolor="#fff">Custom widget to show recent posts from particular category.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/popular-posts-widget.php</td>
+<td bgcolor="#fff">Custom widget to show popular posts based on most commented.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/twitter-widget.php</td>
+<td bgcolor="#fff">Custom widget to show latest tweets from a twitter account.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/social-links-widget.php</td>
+<td bgcolor="#fff">Custom widget to show social networking links.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/page-options.php</td>
+<td bgcolor="#fff">The page options panel.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/post-options.php</td>
+<td bgcolor="#fff">The post options panel.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/theme-admin-options.php</td>
+<td bgcolor="#fff">Xing Theme options.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/shortcodes/shortcodes.php</td>
+<td bgcolor="#fff">Shortcode functions for Xing theme.</td>
+</tr>
+<tr>
+<td bgcolor="#fff">includes/shortcodes/visual-shortcodes.php</td>
+<td bgcolor="#fff">Shortcodes in visual mode of editor.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">formats/ *.php</td>
+  <td bgcolor="#fff">All the files inside formats/ folder are for different style post formats.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">templates/*.php</td>
+  <td bgcolor="#fff">All the files inside templates/ folder are custom templates for page, portfolio, blog, etc.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">woocommerce/account-bar.php</td>
+  <td bgcolor="#fff">The WooCommerce account bar displayed on top right corner of header section.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">woocommerce/woocommerce-hooks.php</td>
+  <td bgcolor="#fff">Custom hooks for WooCommerce plugin that are implemented in the theme.</td>
+</tr>
+<tr>
+  <td bgcolor="#fff">woocommerce/shop/*.php</td>
+  <td bgcolor="#fff">These are the dummy template files required to display WooCommerce pages properly according to the theme layout style.</td>
+</tr>
+</table>
+</div>
+<div class="section">
+<h3 id="23">23. Frequently Asked Questions - <a class="scroll" href="#toc">top</a></h3>
+<p>Below are some Frequently Asked Questions that may help you in finding a solution to your specific issue.</p>
+<h4>1. I have just uploaded the download zip file to WordPress, and it is showing stylesheet missing error. Why?</h4>
+<p>Your download zip file is not the theme itself. It is a collection of theme and documentation. You will need to unzip this folder, find the "<strong>xing</strong>" folder and upload it to the <code>wp-content/themes/</code> directory.</p>
+<h4>2. Why images are not appearing properly on site?</h4>
+<p>  WordPress thumbnail sizes DO NOT get generated for images that were uploaded before the theme was installed. i.e. only newly uploaded images will get generated into the theme specified sizes. (This is a limitation with WordPress). To rectify this issue, you can follow any one of these solutions:<br>
+1. Delete old attachments and re-upload the images into the media library. Next, set these newly uploaded images as featured image to each post. (This could be a long process and time consuming).<br>
+2. Use the <a href="http://wordpress.org/extend/plugins/regenerate-thumbnails/" title="Download link for Regenerate Thumbnails Plugin">Regenerate Thumbnails plugin.</a> This plugin regenerates all your post thumbnails without having to upload images again. This is a handy plugin and widely used for themes with WP Thumbnails feature. The installation instructions can be found inside the plugin. After installing this plugin, navigate to <strong>Tools &gt; Regen Thumnails</strong>. Next, follow the instructions and re-generate the thumbnails.</p>
+<h4>3. What are recommended sizes for images in this theme?</h4>
+<p>For WooCommerce shop pages, you can provide images of 370px by 400px. For slider, preffered width is 764px by 310px. For portfolio and blog pages, you can provide 800px by 600px size images.</p>
+<h4>4. Where do I change font and styles for headings?</h4>
+
+<p>You can change the heading fonts inside style.css file <em>Section 2. Typography</em>:</p>
+<pre>/* Headings */<br>h1, h2, h3, h4, h5, h6 { font-family:&quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color:#333 }</pre>
+<p>For Sidebar headings, <em>Section 5. Sidebar</em>:</p>
+<pre>h3.sb-title { font-size:14px; line-height:18px; color:#555; padding-bottom:5px; border-bottom:1px solid #e5e5e5; margin-bottom:12px }</pre>
+<p>For Secondary area headings, <em>Section 8. Secondary Area</em>:</p>
+<pre>h3.sc-title { font-size:14px; line-height:21px; color:#555; margin-bottom:15px }</pre>
+<h4>5. How to add video to slider?</h4>
+<p>The slider short code supports Vimeo Video. You can insert a video slide using the <code>[slide_video]</code> short code, as shown below:</p>
+<p>
+  <pre>[slider]
+[slide_video src=&quot;39683393&quot;]
+[slide]
+&lt;img src=&quot;http://yoursite.com/slideimage.jpg&quot; /&gt;
+[slide_text]
+&lt;h2&gt;Slide caption here&lt;/h2&gt;
+[/slide_text]
+[/slide]
+[/slider]</pre>
+In the above example, two slides will be inserted. One with video and another with normal image. You only need to provide the video ID inside [slide_video] src parameter. This video ID is generally seen as http://vimeo.com/39683393 (where, the trailing number is video ID on vimeo).</p>
+<h4>6. How to make theme compatible with WP e-commerce plugin</h4>
+<p>The theme supports WP-ecommerce plugin. You can enable the support by following these steps:<br>
+a. Copy the contents/files of <code>your_download_zip/WP ecommerce Updates/</code> folder and paste inside <code>xing/</code> folder.<br>
+b. After adding the files, navigate to WordPress Settings &gt; Store &gt; Presentation &gt; Advanced Theme Settings. Next, click on 'Flush Theme Cache' button and save settings. This will add basic support for the plugin.</p>
+<p class="tip"><strong>Important:</strong> The theme only provides native structure support for WP e-commerce. i.e. no custom styling is provided from the theme. The plugin shall work normal as it does on twentyten theme.</p>
+</div>
+<div class="section">
+<h3 id="24">24. Sources and Credits - <a class="scroll" href="#toc">top</a></h3>
+<p>I have used following files and resources, as listed:</p>
+<h4>jquery, ui.core, ui.widget, ui.tabs and ui.accordion</h4>
+As provided with the WordPress installation.<br>
+http://jquery.com/<br>
+Copyright 2010, John Resig
+<h4>jquery.flexslider-min.js</h4>
+<p>  jQuery FlexSlider v2.0<br>
+Copyright 2012 WooThemes<br>
+Contributing Author: Tyler Smith</p>
+<h4>jquery.jplayer.min.js</h4>
+<p>  http://www.jplayer.org<br>
+  Copyright (c) 2009 - 2011 Happyworm Ltd<br>
+ Dual licensed under the MIT and GPL licenses.<br>
+http://www.opensource.org/licenses/mit-license.php<br>
+http://www.gnu.org/copyleft/gpl.html<br>
+ Author: Mark J Panaghiston<br>
+Version: 2.1.0<br>
+Date: 1st September 2011<br>
+</p>
+<h4>jquery.masonry.min.js</h4>
+<p>  http://masonry.desandro.com<br>
+  Licensed under the MIT license.<br>
+Copyright 2011 David DeSandro<br>
+</p>
+<h4>jquery.prettyPhoto.js</h4>
+<p> Class: prettyPhoto<br>
+Use: Lightbox clone for jQuery<br>
+Author: Stephane Caron (http://www.no-margin-for-errors.com)<br>
+</p>
+<h4>jquery.validate.pack.js</h4>
+<p>jQuery validation plug-in 1.6<br>
+http://bassistance.de/jquery-plugins/jquery-plugin-validation/<br>
+http://docs.jquery.com/Plugins/Validation<br>
+Copyright (c) 2006 - 2008 Jörn Zaefferer<br>
+Dual licensed under the MIT and GPL licenses:<br>
+http://www.opensource.org/licenses/mit-license.php<br>
+http://www.gnu.org/licenses/gpl.html</p>
+  <h4>jquery.hoverIntent.minified.js</h4>
+<p> http://cherne.net/brian/resources/jquery.hoverIntent.html</p>
+<h4>jquery.quicksand.js</h4>
+<p>Copyright (c) 2010 Jacek Galanciak (razorjack.net) and agilope.com<br>
+  Big thanks for Piotr Petrus (riddle.pl) for deep code review and wonderful docs &amp; demos.Dual licensed under the MIT and GPL version 2 licenses.<br>
+  http://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt<br>
+  http://github.com/jquery/jquery/blob/master/GPL-LICENSE.txt<br>
+  Project site: http://razorjack.net/quicksand<br>
+  Github site: http://github.com/razorjack/quicksand</p>
+<h4>jquery.jcarousel.min.js</h4>
+<p> http://sorgalla.com/jcarousel/<br>
+ Copyright (c) 2006 Jan Sorgalla (http://sorgalla.com)<br>
+Dual licensed under the MIT (http://www.opensource.org/licenses/mit-license.php) and GPL (http://www.opensource.org/licenses/gpl-license.php) licenses.<br>
+ Built on top of the jQuery library
+   http://jquery.com<br>
+ Inspired by the &quot;Carousel Component&quot; by Bill Scott 
+  http://billwscott.com/carousel/</p>
+<h4>WooCommerce Plugin</h4>
+<p>http://wordpress.org/extend/plugins/woocommerce/</p>
+<h4>jquery.easing.min.js<br>
+froogaloop2.min.js</h4>
+<h4>Images and Icons</h4>
+<p><strong>Images</strong> on live preview are Standard License purchases from fotolia.com<br>
+  <strong>Social icons</strong> created from the Brand Resource Library of individual social sites like twitter, facebook, dribbble, etc.
+</p>
+</div>
+<div class="section">
+<p>Once again, thank you so much for purchasing this theme. I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+<p><strong>Saurabh Sharma</strong></p>
+<p><a href="#toc">Back to Table of Contents &uarr; </a></p>
+</div>
+<div class="section"><img class="footerimg" src="images/footer_logo.jpg" alt="Xing" width="93" height="31"><br>
+&copy; 2012 SaurabhSharma</div>
+</body>
+</html>

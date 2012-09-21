@@ -1,0 +1,7 @@
+<div class="full">
+
+<img src="http://yoursite.com/wp-content/uploads/2012/09/featured_image.jpg" alt="" title="Corporate business and ecommerce theme" class="alignleft size-medium" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+Donec vel sapien porta sapien eleifend tincidunt at sit amet erat. Praesent in dolor eu orci malesuada viverra vitae vel purus. Sed sit amet dui nisl. Vestibulum venenatis, tellus eu posuere faucibus, augue orci faucibus ipsum, sit amet ornare mauris odio id augue. Integer turpis metus, aliquam sed dapibus nec, hendrerit eget massa. Aenean sodales, augue venenatis posuere fermentum, tellus velit vestibulum libero, ut elementum ipsum erat sed tellus.
+
+</div>

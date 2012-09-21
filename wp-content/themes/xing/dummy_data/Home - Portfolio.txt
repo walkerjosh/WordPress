@@ -1,0 +1,9 @@
+[full]
+
+<h2>Introducing <strong>Xing</strong> theme for WordPress</h2>
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+
+[/full]
+
+[hr_dotted]

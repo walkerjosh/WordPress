@@ -1,0 +1,50 @@
+/* -- Green Color Scheme -- */ 
+
+/* Links */
+a { color:#336600 }
+a:hover { color:#eb6633 }
+
+/* Structure */
+body.is-stretched { background:#336600; border-top:2px solid #336600 }
+
+/* Callout and WooCommerce Account Bar */
+#callout { border-top-color:#336600; border-bottom-color:#336600 }
+ul.account-nav li.cart_status a { background:#336600 }
+ul.account-nav li.cart_status a span.amount { background:#fff; color:#336600 }
+ul.account-nav li.cart_status a:hover { background:#eb6633 }
+ul.account-nav li.cart_status a:hover span.amount { color:#eb6633 }
+
+/* Primary Navigation Menu */
+.ss_nav { background:#336600 }
+.nav1 > li > a { color:#ebf0e6; text-shadow:-1px -1px 0px rgba(0,0,0,0.2) }
+.nav1 > li:hover > a { color:#336600; background:#fff; text-shadow:none; border-right-color:#fff }
+.nav1 li.current-menu-item > a, .nav1 li.current-menu-ancestor > a, .nav1 li.current-menu-item:hover > a, .nav1 li.current-menu-ancestor:hover > a { color:#336600 }
+
+/* Portfolio Nav */
+ul#filter-nav li a:hover { background:#336600 }
+ul#filter-nav li.current a { background-color:#eb6633 }
+.top_btn a:hover { background-color:#eb6633 }
+ul#twitter_update_list span a:hover { color:#eb6633 }
+.jcarousel-next-horizontal, .jcarousel-prev-horizontal { background-color:#336600 }
+.jcarousel-next-horizontal:hover, .jcarousel-next-horizontal:focus, .jcarousel-prev-horizontal:hover, .jcarousel-prev-horizontal:focus { background-color:#eb6633 }
+.jcarousel-next-disabled-horizontal, .jcarousel-next-disabled-horizontal:hover, .jcarousel-next-disabled-horizontal:focus, .jcarousel-next-disabled-horizontal:active, .jcarousel-prev-disabled-horizontal, .jcarousel-prev-disabled-horizontal:hover, .jcarousel-prev-disabled-horizontal:focus, .jcarousel-prev-disabled-horizontal:active { background-color:#666; background-color:rgba(0,0,0,0.3) }
+
+/* Single Post Tag List */
+ul.tag-list li a:hover, ul.tag-list li a:active { background:#336600; color:#fff; border-color:#336600; text-shadow:none }
+ul.tag-list li a:active { color:#999; color:rgba(255,255,255,0.5) }
+
+/* Footer */
+#footer { background:#336600; color:#ebf0e6; border-top-color:rgba(0,0,0,0.2) }
+#footer a { color:#ebf0e6; border-bottom-color:rgba(255,255,255,0.3) }
+#footer a:hover { border-bottom-color:rgba(255,255,255,0.5) }
+.top_btn a { background-color:#336600 }
+.wp-pagenavi span.current { background:#336600; border-color:#336600 }
+
+/* WooCommerce */
+span.onsale { background:#336600; color:#fff }
+.price ins { color:#cc6633; text-decoration:none; border-bottom:1px solid #cc6633 }
+div.product span.price, div.product p.price, ul.products li.product span.price { color:#cc6633 }
+a.button.alt, button.button.alt, input.button.alt, #respond input#submit.alt { background-color:#eb6633 }
+a.button.added:before, button.button.added:before, input.button.added:before, #respond input#submit.added:before { background-color:#cc6633 }
+.widget_layered_nav ul li.chosen a { background-color:#336600 }
+.widget_layered_nav ul li.chosen a:hover { background-color:#eb6633 }

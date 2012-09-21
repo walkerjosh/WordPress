@@ -1,0 +1,227 @@
+[full]
+<h2>Layout Columns</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo. Aenean sodales, augue venenatis posuere fermentum, tellus velit vestibulum libero, ut elementum ipsum erat sed tellus.
+
+[/full]
+
+[half]
+<h2>1/2</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst.
+
+[/half]
+
+[half_last]
+<h2>1/2</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst.
+
+[/half_last]
+
+[half]
+<h3>1/2</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst.
+
+[/half]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[one_fourth_last]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth_last]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[half_last]
+<h3>1/2</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst.
+
+[/half_last]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[half]
+<h3>1/2</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst.
+
+[/half]
+
+[one_fourth_last]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth_last]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[one_fourth_last]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth_last]
+
+[three_fourth]
+<h3>3/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/three_fourth]
+
+[one_fourth_last]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth_last]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[three_fourth_last]
+<h3>3/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/three_fourth_last]
+
+[three_eighth]
+<h3>3/8</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem.
+
+[/three_eighth]
+
+[three_eighth]
+<h3>3/8</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem.
+
+[/three_eighth]
+
+[one_fourth_last]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth_last]
+
+[one_fourth]
+<h3>1/4</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet.
+
+[/one_fourth]
+
+[three_eighth]
+<h3>3/8</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem.
+
+[/three_eighth]
+
+[three_eighth_last]
+<h3>3/8</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem.
+
+[/three_eighth_last]
+
+[two_third]
+<h3>2/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim.
+
+[/two_third]
+
+[one_third_last]
+<h3>1/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_third_last]
+
+[one_third]
+<h3>1/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_third]
+
+[two_third_last]
+<h3>2/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim.
+
+[/two_third_last]
+
+[one_third]
+<h3>1/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_third]
+
+[one_third]
+<h3>1/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_third]
+
+[one_third_last]
+<h3>1/3</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_third_last]
+
+[one_fifth]
+<h3>1/5</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_fifth]
+
+[one_fifth]
+<h3>1/5</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_fifth]
+
+[one_fifth]
+<h3>1/5</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_fifth]
+
+[one_fifth]
+<h3>1/5</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_fifth]
+
+[one_fifth_last]
+<h3>1/5</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget.
+
+[/one_fifth_last]

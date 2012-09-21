@@ -1,0 +1,38 @@
+Xing v1.0.3 details
+-------------------
+
+1. Fixed WooCommerce product search widget alignment in header area
+2. Fixed responsive CSS for sidebar-left pages in mobile
+3. Enabled product remove icon in cart table for mobile
+
+
+
+Files to add/replace
+--------------------
+
+If using Xing v1.0.2, kindly add/replace following files inside the 'xing/' theme folder:
+
+responsive.css
+
+
+Changes for style.css file
+------------------------------
+
+You can either replace style.css file completely, or make selective changes as shown below:
+
+
+/* -- 10. FORMS -- */
+
+/* Search Form */
+
+.searchbox { position:relative; overflow:hidden; margin:0 0 18px; width:100%; max-width:242px }
+.header-widget-area .searchbox { float:right; width:176px }
+.header-widget-area.left .searchbox { float:none }
+
+
+Change to:
+
+.searchbox, .widget_product_search { position:relative; overflow:hidden; margin:0 0 18px; width:100%; max-width:242px }
+.header-widget-area .searchbox, .header-widget-area .widget_product_search { float:right; width:176px }
+.header-widget-area.left .searchbox, .header-widget-area.left .widget_product_search { float:none }
+.header-widget-area .widget_product_search { margin-bottom:10px }

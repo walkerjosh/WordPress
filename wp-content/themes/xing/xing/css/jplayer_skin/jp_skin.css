@@ -1,0 +1,285 @@
+/*
+ * Skin for jPlayer Plugin (jQuery JavaScript Library)
+ * http://www.happyworm.com/jquery/jplayer
+ *
+ * Skin Name: Blue Monday
+ *
+ * Copyright (c) 2010-2011 Happyworm Ltd
+ * Dual licensed under the MIT and GPL licenses.
+ *  - http://www.opensource.org/licenses/mit-license.php
+ *  - http://www.gnu.org/copyleft/gpl.html
+ *
+ * Author: Silvia Benvenuti
+ * Skin Version: 4.0 (jPlayer 2.1.0)
+ * Date: 1st September 2011
+ */
+
+div.jp-audio {
+	/* Edit the font-size to counteract inherited font sizing.
+	 * Eg. 1.25em = 1 / 0.8em
+	 */
+	font-size:1em; /* 1.25em for testing in site pages */ /* No parent CSS that can effect the size in the demos ZIP */
+	font-family:Verdana, Arial, sans-serif;
+	line-height:1.6;
+	color: #777;
+	background: #333;
+	position:relative;
+}
+div.jp-audio {
+	width:640px;
+}
+div.jp-interface {
+	position: relative;
+	background:transparent;
+	width:100%;
+}
+
+div.jp-audio div.jp-type-single div.jp-interface {
+	height:40px;
+}
+
+
+/* @group CONTROLS */
+
+div.jp-controls-holder {
+	clear: both;
+	width:640px;
+	margin:0 auto;
+	position: relative;
+	overflow:hidden;
+	top:-8px; /* This negative value depends on the size of the text in jp-currentTime and jp-duration */
+}
+
+div.jp-interface ul.jp-controls {
+	list-style-type:none;
+	margin:0;
+	padding: 0;
+	overflow:hidden;
+}
+
+div.jp-audio ul.jp-controls {
+	width: 626px;
+	padding:7px;
+}
+
+div.jp-interface ul.jp-controls li {
+	display:inline;
+	float: left;
+}
+
+div.jp-interface ul.jp-controls a {
+	display:block;
+	overflow:hidden;
+	text-indent:-9999px;
+}
+a.jp-play, a.jp-pause{
+	width:26px;
+	height:26px;
+}
+
+a.jp-play {
+	background: url("jp_sprite.png") 0 0 no-repeat;
+}
+a.jp-play:hover {
+	background: url("jp_sprite.png") -36px 0 no-repeat;
+}
+a.jp-pause {
+	background: url("jp_sprite.png") 0 -36px no-repeat;
+	display: none;
+}
+a.jp-pause:hover {
+	background: url("jp_sprite.png") -36px -36px no-repeat;
+}
+
+a.jp-stop {
+	width:16px;
+	height:16px;
+	margin-top:5px;
+	background: url("jp_sprite.png") 0 -72px no-repeat;
+	margin-left:7px;
+}
+
+a.jp-stop:hover {
+	background: url("jp_sprite.png") -26px -72px no-repeat;
+}
+
+/* @end */
+
+/* @group progress bar */
+
+div.jp-progress {
+	overflow:hidden;
+	background:url(jp_sprite.png) 0 -118px repeat-x;
+}
+div.jp-audio div.jp-progress {
+	position: absolute;
+	top:19px;
+	height:2px;
+}
+div.jp-audio div.jp-type-single div.jp-progress {
+	left:63px;
+	width:514px;
+}
+div.jp-seek-bar {
+	background:transparent;
+	width:0;
+	height:2px;
+	cursor: pointer;
+}
+div.jp-play-bar {
+	background: url("jp_sprite.png") 0 -130px repeat-x ;
+	width:0;
+	height:100%;
+}
+
+/* The seeking class is added/removed inside jPlayer */
+div.jp-seeking-bg {
+	background: url("seeking.gif") 0 bottom repeat-x;
+}
+
+/* @end */
+
+/* @group volume controls */
+
+
+a.jp-mute,
+a.jp-unmute {
+	width:7px;
+	height:10px;
+	margin-top:8px;
+}
+
+div.jp-audio div.jp-type-single a.jp-mute,
+div.jp-audio div.jp-type-single a.jp-unmute {
+	margin-left: 528px;
+}
+
+a.jp-mute {
+	background: url("jp_sprite.png") 0 -98px no-repeat;
+}
+a.jp-mute:hover {
+	background: url("jp_sprite.png") -17px -98px no-repeat;
+}
+a.jp-unmute {
+	background: url("jp_sprite.png") -34px -98px no-repeat;
+	display: none;
+}
+a.jp-unmute:hover {
+	background: url("jp_sprite.png") -51px -98px no-repeat;
+}
+
+div.jp-volume-bar {
+	position: absolute;
+	overflow:hidden;
+	background:#44464b url("jp_sprite.png") 0 -118px repeat-x;
+	width:35px;
+	height:2px;
+	cursor: pointer;
+}
+div.jp-audio div.jp-volume-bar {
+	top:19px;
+	left:598px;
+}
+div.jp-volume-bar-value {
+	background: url("jp_sprite.png") 0 -130px repeat-x;
+	width:0;
+	height:5px;
+}
+
+/* @end */
+
+/* @group current time and duration */
+
+div.jp-audio div.jp-time-holder {
+	position:absolute;
+	top:23px;
+}
+div.jp-audio div.jp-type-single div.jp-time-holder {
+	left:63px;
+	width:513px;
+}
+
+div.jp-current-time,
+div.jp-duration {
+	width:60px;
+	font-size:.64em;
+	font-style:oblique;
+}
+div.jp-current-time {
+	float: left;
+	display:inline;
+}
+div.jp-duration {
+	float: right;
+	display:inline;
+	text-align: right;
+}
+
+/* @end */
+
+/* @group playlist */
+
+div.jp-title {
+	font-weight:bold;
+	text-align:center;
+}
+
+div.jp-jplayer audio,
+div.jp-jplayer {
+	width:0;
+	height:0;
+}
+
+div.jp-jplayer {
+	background-color: #000000;
+}
+
+
+/* @group NO SOLUTION error feedback */
+
+.jp-no-solution {
+font-family:Arial, Helvetica, sans-serif;
+line-height:16px;
+	position:absolute;
+	width:300px;
+	left:20px;
+	top: 20px;
+	padding:10px 15px;
+	font-size:12px;
+	background-color:#fff;
+	border:1px solid #eee;
+	color:#333;
+	display:none;
+	z-index:999;
+}
+
+.jp-no-solution a {
+	color:#000;
+	cursor:pointer;
+}
+/* @end */
+
+/* Resize player UI for Small Grid */
+
+div.jp-audio, div.jp-controls-holder {
+	width:242px;
+}
+div.jp-audio ul.jp-controls {
+	width: 228px;
+}
+div.jp-audio div.jp-type-single div.jp-progress, div.jp-audio div.jp-type-single div.jp-time-holder {
+	width:116px;
+}
+div.jp-audio div.jp-type-single a.jp-mute,
+div.jp-audio div.jp-type-single a.jp-unmute {
+	margin-left: 130px;
+}
+div.jp-audio div.jp-volume-bar {
+	left:200px;
+}
+div.jp-current-time,
+div.jp-duration {
+	width:50%;
+}
+
+/* @end */

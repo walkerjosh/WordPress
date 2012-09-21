@@ -1,0 +1,100 @@
+[slider effect="slide" timeout="5000"]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2>Choose from the <strong>unlimited</strong> collection of Women apparels</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2>Flat <strong>40%</strong> discount on all Women footwear</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Club</strong> Semi Formals &ndash; Up to 30% discount on top brands</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Exquisite</strong> Women tops - starting at just £30</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Annual Sale</strong> - Grab your products before the offer closes</h2>
+[/slide_text]
+[/slide]
+
+[/slider]
+
+[full]
+<h2>Introducing <strong>Xing</strong> theme for WordPress</h2>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+[/full]
+
+[hr_dotted]
+
+[one_third]
+<h3>Why choose us</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+
+[btn link="#"]Take a tour &rarr;[/btn]
+
+[/one_third]
+
+[one_third]
+<h3>Our Services</h3>
+<ul>
+<li>Lorem ipsum dolor sit amet</li>
+<li>Consectetur adipiscing elit</li>
+<li>Vivamus leo ante consectetur sit amet</li>
+<li>Vulputate vel dapibus sit amet lectus</li>
+<li>Etiam varius dui eget lorem elementum</li>
+</ul>
+
+[btn link="#"]Know more &rarr;[/btn]
+
+[/one_third]
+
+[one_third_last]
+<h3>Trial Download</h3>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+
+[btn link="#" color="grey"]Download Now &darr;[/btn]
+
+[/one_third_last]
+
+[hr_dotted]
+
+<h3>From the Shop <small>- Check out our latest products</small></h3>
+
+[carousel easing="easeInOutExpo"]
+[recent_products per_page="8" columns="4" orderby="date" order="desc"]
+[/carousel]
+
+[hr_dotted]
+<h4><strong>Trusted</strong> by top brands</h4>
+[half]
+Quisque lacinia auctor mattis. Duis sed nisl justo. Morbi pellentesque blandit tellus ac dapibus. Suspendisse sed urna lobortis nulla semper suscipit id et justo.
+
+[/half]
+
+[half_last]
+<ul class="logo_grid">
+	<li><a title="Company name" href="#"><img src="http://labs.saurabh-sharma.net/themes/xing/wp/wp-content/themes/xing/images/user/client3.jpg" alt="" /></a></li>
+	<li><a title="Company name" href="#"><img src="http://labs.saurabh-sharma.net/themes/xing/wp/wp-content/themes/xing/images/user/client2.jpg" alt="" /></a></li>
+	<li><a title="Company name" href="#"><img src="http://labs.saurabh-sharma.net/themes/xing/wp/wp-content/themes/xing/images/user/client4.jpg" alt="" /></a></li>
+</ul>
+[/half_last]
+
+[quote]Praesent sapien felis gravida a lacinia sed sagittis vitae erat. Proin vel massa ante, quis facilisis nunc. <small>- John Smith</small>[/quote]

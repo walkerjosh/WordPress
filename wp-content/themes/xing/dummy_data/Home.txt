@@ -1,0 +1,70 @@
+[slider effect="slide" timeout="5000"]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2>Choose from the <strong>unlimited</strong> collection of Women apparels</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2>Flat <strong>40%</strong> discount on all Women footwear</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Club</strong> Semi Formals &ndash; Up to 30% discount on top brands</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Exquisite</strong> Women tops - starting at just £30</h2>
+[/slide_text]
+[/slide]
+
+[slide]
+<a href="#"><img src="wp-content/themes/xing/images/user/slide.jpg" alt="" /></a>
+[slide_text]
+<h2><strong>Annual Sale</strong> - Grab your products before the offer closes</h2>
+[/slide_text]
+[/slide]
+
+[/slider]
+
+<h3>Featured Products <small>- All time bestsellers</small></h3>
+
+[carousel easing="easeInOutExpo"]
+[featured_products per_page="20" columns="4" orderby="date" order="desc"]
+[/carousel]
+
+[hr_dotted]
+
+<h3>New Arrivals <small>- Check out our recent additions</small></h3>
+
+[carousel easing="easeInOutExpo"]
+[recent_products per_page="8" columns="4" orderby="date" order="desc"]
+[/carousel]
+
+[hr_dotted]
+
+<h4>Exclusive collection from top <strong>Fashion Brands</strong></h4>
+
+[half]
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus etiam varius dui eget lorem. <a href="#">Browse collection &rarr;</a>
+[/half]
+
+[half_last]
+<ul class="logo_grid">
+	<li><a title="Company name" href="#"><img src="http://labs.saurabh-sharma.net/themes/xing/wp/wp-content/themes/xing/images/user/client4.jpg" alt="" /></a></li>
+	<li><a title="Company name" href="#"><img src="http://labs.saurabh-sharma.net/themes/xing/wp/wp-content/themes/xing/images/user/client2.jpg" alt="" /></a></li>
+	<li><a title="Company name" href="#"><img src="http://labs.saurabh-sharma.net/themes/xing/wp/wp-content/themes/xing/images/user/client3.jpg" alt="" /></a></li>
+</ul>
+[/half_last]
+
+[quote]Donec vel sapien porta sapien eleifend tincidunt at sit amet erat. Praesent in dolor eu orci malesuada viverra vitae vel purus.[/quote]

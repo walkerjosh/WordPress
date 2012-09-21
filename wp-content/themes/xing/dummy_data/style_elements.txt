@@ -1,0 +1,319 @@
+<h2>Style Elements</h2>
+[half]
+
+[accordion]
+
+[acc_item title="Accordion item 1"]
+
+Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo. Aenean sodales, augue venenatis posuere.
+
+[/acc_item]
+
+[acc_item title="Accordion item 2"]
+
+Proin quam neque, fringilla vel porta eu, ultricies id quam. Praesent magna leo, interdum vitae auctor eu, commodo imperdiet ligula. Donec elit nunc, pellentesque vel pulvinar non.
+
+[/acc_item]
+
+[acc_item title="Accordion item 3"]
+
+Etiam vitae odio et ligula pretium dapibus in at elit. Phasellus est massa, aliquam nec pretium id, sollicitudin rutrum sem. Suspendisse id risus orci, nec vestibulum nunc.
+
+[/acc_item]
+
+[/accordion]
+
+[/half]
+
+[half_last]
+[tabs]
+[tab title="Tabbed"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis.
+
+[/tab]
+[tab title="Content"]
+
+Proin quam neque, fringilla vel porta eu, ultricies id quam. Praesent magna leo, interdum vitae auctor eu, commodo imperdiet ligula. Donec elit nunc, pellentesque vel pulvinar.
+
+[/tab]
+[tab title="Example"]
+
+Phasellus est massa, aliquam nec pretium id, sollicitudin rutrum sem. Suspendisse id risus orci, nec vestibulum nunc. Mauris vitae nisl in nunc consequat hendrerit auctor et velit.
+
+[/tab]
+[/tabs]
+
+[/half_last]
+
+[full]
+<h3>Level Indicators</h3>
+[/full]
+
+[full]
+[indicator label="Illustrator" bg="#ff9900" value="75"]
+[indicator label="Photoshop" bg="#336699" value="60"]
+[indicator label="HTML/CSS" bg="#99cc00" value="90"]
+[indicator label="jQuery/php" bg="#333537" value="25"]
+[indicator label="Photography" bg="#cc0000" value="85.67"]
+[indicator label="3D and Motion Graphics" bg="#0099ff" value="13.33"]
+[/full]
+
+[full]
+<h3>Post Lists</h3>
+[/full]
+
+[half]
+[post_list cats="4" num="3"]
+[/half]
+
+[half_last]
+[plain_list cats="4" num="5"]
+[/half_last]
+
+[full]
+<h3>Buttons &amp; Labels</h3>
+[/full]
+
+[half]
+
+[btn link="#" color="aqua"]Button[/btn] [btn link="#" color="red"]Button[/btn] [btn link="#" color="grey"]Button[/btn] [btn link="#" color="pink"]Button[/btn] [btn link="#" color="brown"]Button[/btn] 
+
+[btn link="#" color="skyBlue"]Button[/btn] [btn link="#" color="rosyBrown"]Button[/btn] [btn link="#" color="royalBlue"]Button[/btn] [btn link="#" color="orange"]Button[/btn] [btn link="#" color="forestGreen"]Button[/btn]
+
+[btn link="#" color="yellowGreen"]Button[/btn] [btn link="#" color="crimson"]Button[/btn] [btn link="#" color="skyBlue" size="size-m"]Medium Size[/btn] [btn link="#" color="red" size="size-l"]Large Size[/btn]
+
+[/half]
+
+[half_last]
+<span class="ss_label red">red label</span>
+<span class="ss_label orange">orange label</span>
+<span class="ss_label green">green label</span>
+<span class="ss_label blue">blue label</span>
+<span class="ss_label black">black label</span>
+
+[/half_last]
+
+[full]
+<h3>Boxes</h3>
+[/full]
+
+[full]
+
+[box style="0"]
+
+Normal theme box
+
+[/box]
+
+[box style="1"]
+
+Information or warning
+
+[/box]
+
+[box style="2"]
+
+Success notification
+
+[/box]
+
+[box style="3"]
+
+Error or restriction
+
+[/box]
+
+[box style="4"]
+
+Event Notification
+
+[/box]
+
+[/full]
+
+[full]
+<h3>Line Separators</h3>
+[/full]
+
+[full]
+
+1. Single Line
+
+[hr]
+
+2. Dotted Line
+
+[hr_dotted]
+
+3. Double Line
+
+[dhr]
+
+4. 3D Bar
+
+[hr_3d]
+
+5. Slanted Strips
+
+[hr_strip]
+
+[/full]
+
+[full]
+<h3>Lists</h3>
+[/full]
+
+[one_fourth]
+<ul class="list list0">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth]
+<ul class="list list1">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth]
+<ul class="list list2">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth_last]
+<ul class="list list3">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth_last]
+
+[one_fourth]
+<ul class="list list4">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth]
+<ul class="list list5">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth]
+<ul class="list list6">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth_last]
+<ul class="list list7">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth_last]
+
+[one_fourth]
+<ul class="list list8">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth]
+<ul class="list list9">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth]
+<ul class="list list10">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth]
+
+[one_fourth_last]
+<ul class="list list11">
+	<li>List item one</li>
+	<li>List item two</li>
+	<li>List item three</li>
+	<li>List item four</li>
+</ul>
+[/one_fourth_last]
+
+[full]
+<h3>Quotes</h3>
+[/full]
+
+[half]
+<h4>Pullquote Left</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. [pullquote_left]This is an example of a left side pull quote.[/pullquote_left]Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/half]
+
+[half_last]
+<h4>Pullquote Right</h4>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. [pullquote_right]This is an example of a right side pull quote.[/pullquote_right]Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla. Nunc vestibulum ipsum nec libero sodales dignissim. Nulla ac libero neque, sit amet convallis leo.
+
+[/half_last]
+
+<h4>Single Quote</h4>
+
+[full]
+[quote]
+Example of a custom quote using the short code. Best suited for client testimonials. <small>- John Smith</small>
+[/quote]
+[/full]
+
+[full]
+<h3>Drop Cap</h3>
+[/full]
+
+[full]
+
+[dropcap]L[/dropcap]orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+
+[dropcap style="inverted"]L[/dropcap]orem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum.
+
+[/full]
+
+[full]
+<h3>Toggle</h3>
+[/full]
+
+[toggle title="Toggle Content"]
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus leo ante, consectetur sit amet vulputate vel, dapibus sit amet lectus. Etiam varius dui eget lorem elementum eget mattis sapien interdum. In hac habitasse platea dictumst. Morbi sed nisi est, vitae convallis nulla.
+
+[/toggle]
