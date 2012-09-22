@@ -16,13 +16,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'wordpress');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'free.d0m');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
@@ -42,14 +42,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         '#!f0qdd#fDqz)~DS<X?k+e:/u>-t89#itWPpOmXpapQ(1!O_VA^w+6QE h1.kv6p');
+define('SECURE_AUTH_KEY',  'p#:O<DIeS3(vQHCA.4{--,VW>e-wDJ8#G`Pyt+F4ePPh,ZnHbuG^B;-.Dta1eX-T');
+define('LOGGED_IN_KEY',    '#RbycVc2XYD-1c408+3>pgX$s0A|>Lh`2jg%JE%(FgaA^ymp-P?+b>;Pf}NQ.YJ8');
+define('NONCE_KEY',        '<DSW|k^&/y#1zS(e3/1z^^wTeQ~d_[+Fwo.k[N0wqzZek@p9BAR/W8M%#sy*4wI8');
+define('AUTH_SALT',        '!U8|Z&@-LWK^}Ktq% *0Ua=+^yC1h5${@q_fvpx7$]Uy,&<;jdWQIq/<KQ+t#9[P');
+define('SECURE_AUTH_SALT', 'b9GOJ]+f0o+TNo @E~`u2jw6nl_bTF$1N,iJv~%0zhx~#;T5tZatI>Z9vk2rc3|7');
+define('LOGGED_IN_SALT',   'UAsy_P5-duq4jGC^8KIRg,a.JnY6-qTMwn8EAHu%!f}B~5ob}>r&PdBPhUEIFh[A');
+define('NONCE_SALT',       '00V/4`1cF<HJu/t:QhFuK02oPNa&`EAO%&{hh=:8=N{iVF0xO}gD:I!5fVO{.u6.');
 
 /**#@-*/
 
@@ -79,6 +79,15 @@ define('WPLANG', '');
  * in their development environments.
  */
 define('WP_DEBUG', false);
+define('WP_ALLOW_MULTISITE', true);
+define('MULTISITE', true);
+define('SUBDOMAIN_INSTALL', true);
+$base = '/';
+define('DOMAIN_CURRENT_SITE', 'orchardapp.com');
+define('PATH_CURRENT_SITE', '/');
+define('SITE_ID_CURRENT_SITE', 1);
+define('BLOG_ID_CURRENT_SITE', 1);
+define('WP_DEFAULT_THEME', 'xing');
 
 /* That's all, stop editing! Happy blogging. */
 
