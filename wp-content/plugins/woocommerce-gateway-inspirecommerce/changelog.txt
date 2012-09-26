@@ -1,0 +1,9 @@
+*** Inspire Commerce Gateway Changelog ***
+
+2011.11.16 - version 1.1
+ * Removed unused options
+ * Switched logging to be email based for added security. Old logs should be deleted - delete the 'logs' directory in the plugin folder if it exists.
+ * Logging requires test mode on
+ 
+2011.10.13 - version 1.0
+ * First Release
