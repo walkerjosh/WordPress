@@ -1,0 +1,19 @@
+*** Stripe Changelog ***
+
+2012.09.11 - version 1.2.1
+ * Fix text mode SSL logic
+
+2012.09.01 - version 1.2
+ * SSL not required in TEST MODE
+ * Saved cards - store customer tokens and let users pay again using the same card
+ * Subscriptions use a single customer, rather than per-order
+ * Only load JS on checkout
+
+2012.06.19 - version 1.1
+ * Update woo updater
+ * Class name update
+ * Stripe JS for added security - you will need to re-enter keys and ensure you are using WooCommerce 1.5.8
+ * Subscriptions support (requires WC Subscriptions addon)
+
+2011.12.08 - version 1.0
+ * First Release
