@@ -1,0 +1,135 @@
+*** Shelflife Changelog ***
+
+2012.10.03 - version 1.1.5
+ * /includes/js/general.js - Fixes radio buttons in Gravity Forms add-on.
+ * search.php - Styled unformatted post meta.
+ * /includes/theme-woocommerce.php - Fixed duplicated upsell output
+ * /includes/theme-options.php - Add subheadings to various sections, where appropriate.
+
+2012.08.25 - version 1.1.4
+ * style.css - Fixed broken LESS functions. Fixed clearing bug on product listing pages after WooCommerce template updates.
+ * /css/layout.css -  Fixed clearing bug on product listing pages after WooCommerce template updates.
+
+2012.08.20 - version 1.1.3
+ * css/layout.css - Removed top margin from "#navigation ul.mini-cart li ul.cart_list"
+
+2012.07.31 - version 1.1.2
+ * images/ico-subscribe-social.png - Updated Twitter Icon
+ * images/twitter.png - Updated Twitter Icon
+ * includes/widget/widget-woo-twitter.php - Added "Twitter" text for default widget title
+
+2012.07.30 - version 1.1.1
+ * style.css - Changed #searchform #searchsubmit, .searchform #searchsubmit {width:80%;} to fix product search widget icon on small screens.
+
+2012.07.19 - version 1.1
+ * template-sale.php - now uses content-product instead of loop-shop. Requires WooCommerce 1.6.0+
+
+2012.07.17 - version 1.0.25
+ * /includes/more-products.php - Ensure that "out of stock" products aren't returned by the database query.
+ * /includes/featured-products.php - Ensure that "out of stock" products aren't returned by the database query.
+ * /includes/popular-products.php - Ensure that "out of stock" products aren't returned by the database query.
+
+2012.06.22 - version 1.0.24
+ * - REQUIRES WORDPRESS 3.4+ -
+ * /includes/theme-functions.php - Add filter on pre_get_posts to fix the homepage blog posts query's pagination.
+ * index.php - Convert homepage blog posts from query_posts() to use a new WP_Query. Remove pre_get_posts filter when done parsing query.
+ * header.php - Replace bloginfo( 'url' ) with home_url( '/' ). Code standards clean-up and maintenance.
+
+2012.06.06 - version 1.0.23
+ * style.css - Styling fix for group products table
+
+2012.05.14 - version 1.0.22
+ * style.css - Fixed site title margin for pages; Fixed WooCommerce ordering margin
+ * layout.css - Fixed WooCommerce ordering margin
+
+2012.05.07 - version 1.0.21
+ * css/layout.css - Fix for "product quantity" column width on checkout page cart table
+                  - Fixed pagination & ordering overlap issue
+
+2012.05.03 - version 1.0.20
+ * style.css - Fixed styling for "Share This" in WooCommerce
+
+2012.04.23 - version 1.0.19
+ * includes/js/respond-IE.js - Updated to latest version
+
+2012.04.16 - version 1.0.18
+ * template-sale.php - preparation for WooCommerce 1.5.4
+
+2012.04.16 - version 1.0.17
+ * style.css - Fixed "Add to cart" buttons for IE8; Fixed thumbnail sizes for IE8 (Checkout page & blog author widget )
+
+2012.04.11 - version 1.0.16
+ * /includes/theme-woocommerce.php - hooked in woocommerce sidebar for conditional removal
+ 
+2012.04.02 - version 1.0.15
+ * /includes/theme-woocommerce.php - Make sure the woocommerceframework_woo_pagination_defaults() function is present (required by the WooCommerce pagination filter).
+ * style.css - Added styling for AJAX add to cart loading & success button
+ * images/ajax-loader.gif,
+   images/icon_tick.png - Added images for AJAX add to cart
+
+2012.03.26 - version 1.0.14
+ * style.css - Header & content flash sales banner styling
+ * index.php - Header & content widget areas
+ * includes/sidebar-init.php - Header & content widget areas
+
+2012.03.22 - version 1.0.13
+ * style.css - Added styling for Sale Banner shortcode
+ * /includes/theme-options.php - Fixed bug WooCommerce SEO custom fields tab
+
+2012.03.10 - version 1.0.12
+ * style.css fixes product thumbnails when using cloud zoom
+
+2012.02.27 - version 1.0.11
+ * /includes/promotions.php - Add unique ID to each promotion's output.
+
+2012.02.20 - version 1.0.10
+ * style.css - Pagination styling tweak
+ * layout.css - Pagination styling tweak
+ * includes/theme-woocommerce.php - Fixed pagination
+ * template-sale.php - Fixed pagination
+
+2012.02.18 - version 1.0.9
+ * includes/js/third-party.js - removed respond.js 
+ * includes/js/respond-IE.js - new file 
+ * includes/theme-actions.php - load responsive IE script in footer
+
+2012.02.14 - version 1.0.8
+ * style.css - Fix cart drop down styling
+ * layout.css - Cart drop down & cart-collaterals styling fixes
+ * template-contact.php - Clear fix.
+ * template-sitemap.php - Added products to sitemap
+
+2012.02.06 - version 1.0.7
+ * includes/promotions.php - Added button URL to titles & images
+
+2012.02.01 - version 1.0.6
+ * - REQUIRES WOOCOMMERCE V1.4 -
+ * index.php - Added conditionals for the different sliders.
+ * /includes/featured-products.php - Moved conditional to index.php. Updated meta query for WooCommerce V1.4 compatibility.
+ * /includes/popular-products.php - Moved conditional to index.php. Updated meta query for WooCommerce V1.4 compatibility.
+ * /includes/more-products.php - Updated meta query for WooCommerce V1.4 compatibility.
+ * style.css - Removed sub-nav indicator from cart drop-down.
+
+2012.01.31 - version 1.0.5
+ * index.php - Fixed conditional for the homepage blog sections.
+ * /includes/theme-woocommerce.php - Make sure the custom JOIN is added to the meta query join generated by WordPress.
+
+2012.01.28 - version 1.0.4
+ * /includes/mini-features.php - Add logic to ignore lightbox if a link is placed in the "Mini features URL" field and to activate it if a "Lightbox URL" link is in place. If neither is set, the image is displayed in the lightbox.
+
+2012.01.25 - version 1.0.3
+ * /includes/js/jquery.prettyPhoto.js - Re-minify jQuery prettyPhoto JavaScript (v3.1.3).
+
+2012.01.23 - version 1.0.2
+ * /includes/featured-products.php, 
+   /includes/more-products.php, 
+   /includes/popular-products.php - Make sure hidden products (either "hidden" or "search" visibility) are not displayed, and convert meta fields in query to use meta_query.
+
+2012.01.06 - version 1.0.1
+ * includes/theme-actions.php,
+   style.less,
+   css/mixins.less,
+   styles/* - Replaced default Google font with Bitter, as Rokkit was causing Chrome on Windows to crash
+	
+2012.01.05 - version 1.0
+ * First release!
