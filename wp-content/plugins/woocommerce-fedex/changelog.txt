@@ -1,0 +1,77 @@
+*** FedEx Changelog ***
+
+2012.07.25 - version 2.3.1
+ * Added FEDEX_2_DAY_AM
+ * Added disclaimer notice for quick quote
+ * Added small workaround for when the api returns an object instead of an array
+
+2012.07.11 - version 2.3
+  * Added a 'production' option for using production keys from FedEx
+
+2012.06.21 - version 2.2.4
+  * updated Fedex developer auth keys
+
+2012.06.20 - version 2.2.3
+  * Prepended ID's with FedEx
+
+2012.05.22 - version 2.2.2
+  * Moved currency check
+  * Hooked up insurance setting
+
+2012.05.22 - version 2.2.1
+  * Fix shipping method check
+  * Removed unused cache
+
+2012.05.22 - version 2.2
+  * Remove Saturday shipping option, it is causing no shipping returns.
+
+2012.05.22 - version 2.1
+  * Fix a bug that causes ground delivery not show up when uncheck residential delivery
+
+2012.04.18 - version 2.0
+  * Enable User account
+  * Introducing SmartPost and some other additional shipping methods
+  * Provide quick quote when no FedEx account available
+  * Provide debug mode
+  * Enable insurance
+  * Enable Residential delivery
+  * Enable Saturday delivery
+
+2012.04.15 - version 1.1.1
+	* Save hook for WC 1.5.4
+
+2012.01.26 - version 1.1
+  * WC 1.4 Compatibility
+  
+2011.12.22 - version 1.0.7
+  * Fixing a bug that causes wrong datatype error on first plugin active
+  * Update admin interface
+  * Error handling for wp_remote_post
+
+2011.11.24 - version 1.0.6
+  * Added woo updater
+  
+2011.11.23 - version 1.0.5
+  * Fixed is_virtual check
+  
+2011.11.21 - version 1.0.4
+  * Type in origin variable - you may need to re-enter your ZIP and re-save
+  * Fixed origin_post check
+
+2011.11.17 - version 1.0.3
+
+  * More accurate item checking
+  * Add a notice when no post code input
+
+2011.11.11 - version 1.0.2
+  * add transient to caching result
+
+2011.11.10 - version 1.0.1
+  * remove freight shipping option.
+  * remove cost option in admin.
+  * remove a method that is no longer used.
+  * change origin post code to origin zip code
+  * check origin country and add notification in admin.
+  * use some woocommerce method instead of access class property.
+  * remove shippingloader.js as it is no longer needed
+  * add handling fee

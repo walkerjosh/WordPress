@@ -1,0 +1,93 @@
+*** US Postal Service Changelog ***
+
+2012.10.24 - version 2.1.3
+* Add Purto Rico and Virgin Island for shipping origin and destination
+* Fix an issue with box counting
+
+2012.10.11 - version 2.1.2
+* Stop First-class parcel rate gets letter or postcard fall back rate
+
+2012.09.25 - version 2.1.1
+* Fix a bug that causes rate not accurate
+
+
+2012.09.20 - version 2.1
+* Minor bug fix for fallback rate.
+* Remove First-Class Letter, add First-Class Mail Parcel
+
+2012.08.10 - version 2.0
+
+* Add option for pre-defined boxes for Priority Mail
+* Add option for pre-defined boxes for Express Mail
+* Removed flat rates from general rates selection box
+* Added localisation
+* Code cleanup
+* Use core weight/dimension conversion functions
+* Fix typos
+* Fix tax calculations
+* Enhanced admin page
+* Added option to disable custom box size
+* Option to show only the cheapest option
+* Option to use a fall back rate if none are returned
+* Additional packing check to increase the accuracy
+
+2012.06.27 - version 1.1
+* Define girth for product and custom box
+
+2012.06.13 - version 1.0.9
+* Fix pound rounding issue
+
+2012.06.05 - version 1.0.8
+* Fix weight check when using per order shipping
+
+2012.06.05 - version 1.0.7
+* Updated updater
+* Debug mode
+
+2012.05.28 - version 1.0.6
+* Change First-Class to First-Class Postcards
+* Change Express Mail PO to Addressee to Express Mail PO to Address
+* Change Library to Library Mail
+* Change Priority Mail Flat-Rate Boxes to Priority Mail Medium Flat Rate Box
+* Change First Class Mail International Package to First Class Mail International Parcel
+* Add following methods:
+	Domestic:
+		First-Class Large Postcards
+		Priority Mail Padded Flat Rate Envelope
+		Express Mail Legal Flat Rate Envelope
+		Express Mail Legal Flat Rate Envelope Hold For Pickup
+		Priority Mail Gift Card Flat Rate Envelope
+		Priority Mail Window Flat Rate Envelope
+		Priority Mail Small Flat Rate Envelope
+		Priority Mail Legal Flat Rate Envelope
+		Express Mail Flat Rate Boxes
+		Express Mail Flat Rate Boxes Hold For Pickup
+		Express Mail Flat Rate Envelope
+
+	International:
+		International PostCards
+		Priority Mail International DVD Flat Rate priced box
+		Priority Mail International Large Video Flat Rate priced box
+		Express Mail International Flat Rate Boxes
+
+
+2012.05.21 - version 1.0.5
+* Fix a bug that causing wrong package count
+
+2012.04.15 - version 1.0.4
+* Save hook for WC 1.5.4
+
+2012.03.19 - version 1.0.3
+* Support for countries with no state
+* Fix international shipping
+
+2012.03.10 - version 1.0.2
+* Fix shipping method naming problem
+* Fix shipping rate
+
+2012.02.29 - version 1.0.1
+* Add tax per_order / per_item
+* Fix a bug that cause some rate isn't showing up.
+
+2012.02.22 - version 1.0
+* All spark
